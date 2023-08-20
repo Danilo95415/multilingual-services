@@ -51,8 +51,9 @@ body {
 
 
 .section_2 {
-    height: 344px;
+    /* height: 375px; */
     background-image: url('../../public/images/background.png');
+    background-size: cover;
 }
 
 .box_1 {
@@ -96,7 +97,7 @@ body {
 
 .contact_us {
     background-color: #fff;
-    height: 250px;
+    /* height: 250px; */
 }
 .input_item {
     padding: 5px;

@@ -61,12 +61,12 @@
             </ul>
       </div>
     </div>
-    <div class="section_2 container-fluid">
-      <div class="container">
+    <div class="section_2 py-5">
+      <div class="container my-5">
         <div class="row">  
           <div class="box_1 col-md-5 p-0 mt-4 ">
             <div class="container light_item">
-              <div class="d-flex flex-column" style="margin-top: 20px;">
+              <div class="d-flex flex-column py-5" style="margin-top: 20px;">
                 <p class="get_ahead">Get Ahead of Competition with</p>
                 <p class="foreign">FOREIGN LANGUAGE SERVICE COMPANY</p>
                   <div class=" d-flex justify-content-center mt-1">
@@ -112,15 +112,15 @@
                 </div>
             </div>
           </div>
-          <div class="col-md-3" />
-          <div class=" col-md-4 mt-3 row" >
+          <div class="col-md-2" />
+          <div class=" col-md-5 mt-3 row" >
             <div class="col-md-8 mx-auto">
-              <div style="background-color: #FF6600;" class="pb-1">
-                <p class='text-center' style="margin-bottom: 0; font-size:14px; font-weight:500;color:#fff">Request a FREE QUOTE</p>
-                <p class='text-center' style="margin-bottom: 0; font-size:12px;font-weight:300;color:#fff">Partner with Multilingual Experts!</p>
-                <p class='text-center' style="margin-bottom: 0;font-size:12px;font-weight:300;color:#fff">Save your cost within 12 Hours.</p>
+              <div style="background-color: #FF6600;" class="py-3">
+                <p class='text-center' style="margin-bottom: 0; font-size:20px; font-weight:500;color:#fff">Request a FREE QUOTE</p>
+                <p class='text-center' style="margin-bottom: 0; font-size:16px;font-weight:300;color:#fff">Partner with Multilingual Experts!</p>
+                <p class='text-center' style="margin-bottom: 0;font-size:14px;font-weight:300;color:#fff">Save your cost within 12 Hours.</p>
               </div>
-              <div class="contact_us d-flex flex-column">
+              <div class="contact_us d-flex flex-column py-3">
                 <div class="input_item">
                   <input type="text" name="name" id="name" placeholder="Name">
                 </div>
@@ -139,7 +139,7 @@
                 <div class="send_button">
                   <button ><img src="images/arrow.png" />&nbsp;SEND</button>
                 </div>
-                <p style="margin-bottom: 0;font-size:12px;font-weight:300; padding:0 0 0 8px;">We repect your privacy <span style="color:#32B2C1">Policy</span></p>
+                <p style="margin-bottom: 0;font-size:12px;font-weight:300; padding:0 0 10px 8px;">We repect your privacy <span style="color:#32B2C1">Policy</span></p>
               </div>
             </div>
           </div>
