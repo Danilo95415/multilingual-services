@@ -57,6 +57,7 @@
               <li class="list_item">CREATIVE<br/><span class="d-flex justify-start">SERVICES</span> </li>
               <li class="list_item">PHOTO EDITING<br/><span class="d-flex justify-start">SERVICES</span> </li>
               <li class="list_item">VIRTUAL ASSISTANT<br/><span class="d-flex justify-start">SERVICES</span> </li>
+              <li class="list_item">FINANCE<br/><span class="d-flex justify-start">ACCOUNTING</span> </li>
             </ul>
       </div>
     </div>
@@ -69,49 +70,39 @@
                 <p class="get_ahead">Get Ahead of Competition with</p>
                 <p class="foreign">FOREIGN LANGUAGE SERVICE COMPANY</p>
                   <div class=" d-flex justify-content-center mt-1">
-                    <div class="inbox col-md-6 d-flex">
+                    <div class="inbox col-md-5 d-flex">
                       <div class="col-md-4 d-flex align-items-center justify-content-center" style="background-color: #DDE1E6;">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-emoji-smile" viewBox="0 0 16 16">
-                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                        <path d="M4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z"/>
-                        </svg>
+                        <img src="images/smiley.svg" />
                       </div>
                       <div class="col-md-8 " style="padding: 12px;">
                         <p style="margin-bottom: 0; color:#FF6600 ; font-weight:500">250+</p>
                         <p style="margin-bottom: 0; font-size:14px">Happy customer</p>
                       </div>
                     </div>
-                    <div class="inbox col-md-6 d-flex">
+                    <div class="inbox col-md-5 d-flex">
                       <div  class="col-md-4 d-flex align-items-center justify-content-center" style="background-color: #DDE1E6;">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-emoji-smile" viewBox="0 0 16 16">
-                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                        <path d="M4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z"/>
-                      </svg></div>
+                        <img src="images/Vector.svg" />
+                      </div>
                       <div  class="col-md-8"  style="padding: 12px;">
                         <p style="margin-bottom: 0; color:#FF6600 ; font-weight:500">600+</p>
-                        <p style="margin-bottom: 0;font-size:14px">Completed projects</p>
+                        <p style="margin-bottom: 0;font-size:13px">Completed projects</p>
                       </div>
                     </div>
                   </div>  
                   <div class=" d-flex justify-content-center mt-3">
-                    <div class="inbox col-md-6 d-flex">
+                    <div class="inbox col-md-5 d-flex">
                       <div class="col-md-4 d-flex align-items-center justify-content-center" style="background-color: #DDE1E6;">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-emoji-smile" viewBox="0 0 16 16">
-                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                        <path d="M4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z"/>
-                        </svg>
+                        <img src="images/Vector_2.svg" />
                       </div>
                       <div class="col-md-8 " style="padding: 12px;">
                         <p style="margin-bottom: 0; color:#FF6600; font-weight:500">108K+</p>
-                        <p style="margin-bottom: 0; font-size:14px">Available Resources</p>
+                        <p style="margin-bottom: 0; font-size:13px">Available Resources</p>
                       </div>
                     </div>
-                    <div class="inbox col-md-6 d-flex">
+                    <div class="inbox col-md-5 d-flex">
                       <div  class="col-md-4 d-flex align-items-center justify-content-center" style="background-color: #DDE1E6;">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-emoji-smile" viewBox="0 0 16 16">
-                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                        <path d="M4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z"/>
-                      </svg></div>
+                        <img src="images/users.svg" />
+                      </div>
                       <div  class="col-md-8"  style="padding: 12px;">
                         <p style="margin-bottom: 0; color:#FF6600; font-weight:500">11K+</p>
                         <p style="margin-bottom: 0;font-size:14px">Subscribers</p>
@@ -155,31 +146,41 @@
         </div>
       </div>
     </div>
-    <div class="section_3 mt-3 mb-5">
+    <div class="section-industry">
+      <div class="container">
+          <div class="title my-3">INDUSTRIES WE SERVE TO</div>
+          <div class="content mt-3 mb-4">
+              We provide our services to multiple industries and verticals. Here is a break-up of the industries that we offer serves
+          </div>
+          <div class="gallery row">
+              <div class=" col-md-4 col-sm-6 industry my-2" v-for="index in 24" :key="index">
+                  <div class="col-md-10 border-special">
+                      <span class="icon m-2">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#FF6600" class="bi bi-airplane-engines" viewBox="0 0 16 16">
+                              <path d="M8 0c-.787 0-1.292.592-1.572 1.151A4.347 4.347 0 0 0 6 3v3.691l-2 1V7.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.191l-1.17.585A1.5 1.5 0 0 0 0 10.618V12a.5.5 0 0 0 .582.493l1.631-.272.313.937a.5.5 0 0 0 .948 0l.405-1.214 2.21-.369.375 2.253-1.318 1.318A.5.5 0 0 0 5.5 16h5a.5.5 0 0 0 .354-.854l-1.318-1.318.375-2.253 2.21.369.405 1.214a.5.5 0 0 0 .948 0l.313-.937 1.63.272A.5.5 0 0 0 16 12v-1.382a1.5 1.5 0 0 0-.83-1.342L14 8.691V7.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v.191l-2-1V3c0-.568-.14-1.271-.428-1.849C9.292.591 8.787 0 8 0ZM7 3c0-.432.11-.979.322-1.401C7.542 1.159 7.787 1 8 1c.213 0 .458.158.678.599C8.889 2.02 9 2.569 9 3v4a.5.5 0 0 0 .276.447l5.448 2.724a.5.5 0 0 1 .276.447v.792l-5.418-.903a.5.5 0 0 0-.575.41l-.5 3a.5.5 0 0 0 .14.437l.646.646H6.707l.647-.646a.5.5 0 0 0 .14-.436l-.5-3a.5.5 0 0 0-.576-.411L1 11.41v-.792a.5.5 0 0 1 .276-.447l5.448-2.724A.5.5 0 0 0 7 7V3Z"/>
+                          </svg>
+                      </span>
+                      <span class="short-text">Aerospace</span>
+                  </div>
+              </div>
+            </div>
+        </div>
+    </div>
+    <div class="section_3 mt-5 mb-5">
       <div class="container">
         <div class="row">
           <div class="col-md-8">
             <p style="font-size: 25px; color:#32B2C1">OUTSOURCE FOREIGN LANGUAGE SERVICES</p>
             <p>PlE Multilingual is the ultimate answer to meet your business service demand. Our fast and cost-effective processes make us a top choice among the clients irrespective of geographical boundaries. We follow up-to-date computing environment and methodology, 
               which smoothly converts your project concepts into reality. Whether it is language translation, language transcription or any other business service, we ensure efficiency, professionalism and quality in more than 150+ languages. Most importantly, we understand that you deserve the best and thus ensure that your project undergo with multi quality stage to deliver
-               <span style="color: #FF6600;">excellent quality</span>.
+               <span class="color-special bold">excellent quality</span>.
             </p>
             <p>
-              <span style="color: #FF6600;">Partner</span>&nbsp;with Multilingual Business Service Company to meet your business requirements with foreign language expertise.
+              <span class="color-special bold">Partner</span>&nbsp;with Multilingual Business Service Company to meet your business requirements with foreign language expertise.
               Partnering with Foreign Language Service company will not just cut your cost but will also helop on a variety of assignment where foreign language expertise is required.
               Foreign Language Service company will not just cut your cost but will also help on a variety of assignment where foreign language expertise is required.
               Foreign Language outsourcing company will help to open your business in new geography. Add foreign language services in your expertise and Leverage your business with us.
             </p>
-            <div class="d-flex keyboard justify-content-center align-items-center">
-              <div class="keyboard_img">
-                <img src="images/keyboard.png" />
-              </div>
-              <div class="keyboard_box">
-                <p style="margin-bottom: 0; font-size:20px; font-weight:500;color:#32B2C1">Case Study</p>
-                <p style="font-size:13px; margin-bottom:2px">Browse Case Studies to find out how our Experienced language experts have helped our clients with Superior language support.</p>
-                <button class="know_button">Know More</button>
-              </div>
-            </div>
           </div>
           <div class="col-md-4 mt-5"  >
             <img src="images/video.png" style="width: 100%"/>
@@ -187,7 +188,47 @@
         </div>
       </div>
     </div>
-    <div class="section_4 mt-2">
+    <div class="section_4 mt-3">
+      <div class="container">
+        <div class="assistant_heading">VIRTUAL ASSISTANT SERVICES</div>
+        <div class="row mt-5 mb-5" v-for="index in 3" :key='index'>
+          <div class="col-md-4 d-flex justify-content-center ">
+            <div class="col-md-9">
+              <div class="assistant_item">EVENT PLANNING SERVICES</div>
+              <div class="assistant_item_child">EVENT PLANNING SERVICES EVENT PLANNING SERVICES EVENT PLANNING SERVICES</div>
+            </div>
+            <div class="col-md-3 text-center">
+              <svg style="color: #FF6600;" xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-calendar-fill" viewBox="0 0 16 16">
+                <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5h16V4H0V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5z"/>
+              </svg>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex justify-content-center ">
+            <div class="col-md-9">
+              <div class="assistant_item">EVENT PLANNING SERVICES</div>
+              <div class="assistant_item_child">EVENT PLANNING SERVICES EVENT PLANNING SERVICES EVENT PLANNING SERVICES</div>
+            </div>
+            <div class="col-md-3 text-center">
+              <svg style="color: #FF6600;" xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-calendar-fill" viewBox="0 0 16 16">
+                <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5h16V4H0V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5z"/>
+              </svg>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex justify-content-center ">
+            <div class="col-md-9">
+              <div class="assistant_item">EVENT PLANNING SERVICES</div>
+              <div class="assistant_item_child">EVENT PLANNING SERVICES EVENT PLANNING SERVICES EVENT PLANNING SERVICES</div>
+            </div>
+            <div class="col-md-3 text-center">
+              <svg style="color: #FF6600;" xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-calendar-fill" viewBox="0 0 16 16">
+                <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5h16V4H0V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5z"/>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section_5 mt-2">
       <div class="container">
         <div class="row">
           <p class="testing">TESTMONIALS</p>
@@ -263,7 +304,8 @@
     </div>
     <div class="section-language mt-5 mb-5">
       <div class="container">
-          <div class="col-md-9 row">
+          <div class="assistant_heading">FOREIGN LANGUAGE SUPPORT</div>
+          <div class="col-md-9 row mt-4">
               <div class="support col-md-4 col-sm-6 p-3">
                   <div class="support-icon mx-auto d-flex align-items-center justify-content-center">
                       <img src="images/1.png">
