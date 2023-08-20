@@ -210,6 +210,66 @@ body {
     border-image-slice: 1;
 }
 
+/*case-study*/
+.case_header {
+    font-size: 25px;
+     color:#32B2C1;
+     font-weight: 500;
+     text-align:center;
+}
+.case_content {
+    border: 1px solid #CCCCCC;
+}
+.case_item {
+    padding: 0 12px 0 35px;
+}
+.know_button {
+    border: 2px solid #ff6600;
+    background-color: #fff;
+    background-color: white;
+    color: #FF6600;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+/*choose us*/
+.section-choose .title {
+    color: #32b2c1;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.section-choose .content {
+    font-size: 16px;
+}
+
+.section-choose .bg-color-orange {
+    background-color: #FF6600;
+}
+
+.section-choose .total-content .count {
+    font-size: 50px;
+    color: white;
+}
+
+.section-choose .total-content .amount-text {
+    color: white;
+}
+
+.section-choose .pos-relative {
+    position: relative;
+}
+
+.section-choose .know-more button{
+    position: absolute;
+    border: 2px solid #FF6600;
+    bottom: 20px;
+    left: 25px;
+    background-color: white;
+    color: #FF6600;
+    border-radius: 6px;
+    font-weight: bold;
+}
 /* Footer */
 .section-language .support .support-icon {
     width: 150px;

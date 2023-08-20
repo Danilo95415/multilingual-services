@@ -58,11 +58,12 @@
               <li class="list_item">PHOTO EDITING<br/><span class="d-flex justify-start">SERVICES</span> </li>
               <li class="list_item">VIRTUAL ASSISTANT<br/><span class="d-flex justify-start">SERVICES</span> </li>
               <li class="list_item">FINANCE<br/><span class="d-flex justify-start">ACCOUNTING</span> </li>
+              <li class="list_item">TESTIMONIAL</li>
             </ul>
       </div>
     </div>
     <div class="section_2 py-5">
-      <div class="container my-5">
+      <div class="container mb-5">
         <div class="row">  
           <div class="box_1 col-md-5 p-0 mt-4 ">
             <div class="container light_item">
@@ -127,8 +128,9 @@
                 <div class="input_item">
                   <input type="text" name="name" id="name" placeholder="Email">
                 </div>
-                <div class="input_item">
-                  <input type="text" name="name" id="name" placeholder="Phone">
+                <div class="input_item d-flex">
+                  <span class="input-group-text rounded-0" style="border-color: #FF6600;" id="basic-addon1">US</span>
+                  <input type="text" name="name" id="name" class="rounded-0" placeholder="Phone">
                 </div>
                 <div class="input_item pb-0">
                   <textarea type="text" name="name" id="name"  placeholder="Write requirements" />
@@ -139,34 +141,14 @@
                 <div class="send_button">
                   <button ><img src="images/arrow.png" />&nbsp;SEND</button>
                 </div>
-                <p style="margin-bottom: 0;font-size:12px;font-weight:300; padding:0 0 10px 8px;">We repect your privacy <span style="color:#32B2C1">Policy</span></p>
+                <p style="margin-bottom: 0;font-size:12px;font-weight:300; padding:10px 0 0 8px;">We repect your privacy <span style="color:#32B2C1">Policy</span></p>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="section-industry">
-      <div class="container">
-          <div class="title my-3">INDUSTRIES WE SERVE TO</div>
-          <div class="content mt-3 mb-4">
-              We provide our services to multiple industries and verticals. Here is a break-up of the industries that we offer serves
-          </div>
-          <div class="gallery row">
-              <div class=" col-md-4 col-sm-6 industry my-2" v-for="index in 24" :key="index">
-                  <div class="col-md-10 border-special">
-                      <span class="icon m-2">
-                          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#FF6600" class="bi bi-airplane-engines" viewBox="0 0 16 16">
-                              <path d="M8 0c-.787 0-1.292.592-1.572 1.151A4.347 4.347 0 0 0 6 3v3.691l-2 1V7.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.191l-1.17.585A1.5 1.5 0 0 0 0 10.618V12a.5.5 0 0 0 .582.493l1.631-.272.313.937a.5.5 0 0 0 .948 0l.405-1.214 2.21-.369.375 2.253-1.318 1.318A.5.5 0 0 0 5.5 16h5a.5.5 0 0 0 .354-.854l-1.318-1.318.375-2.253 2.21.369.405 1.214a.5.5 0 0 0 .948 0l.313-.937 1.63.272A.5.5 0 0 0 16 12v-1.382a1.5 1.5 0 0 0-.83-1.342L14 8.691V7.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v.191l-2-1V3c0-.568-.14-1.271-.428-1.849C9.292.591 8.787 0 8 0ZM7 3c0-.432.11-.979.322-1.401C7.542 1.159 7.787 1 8 1c.213 0 .458.158.678.599C8.889 2.02 9 2.569 9 3v4a.5.5 0 0 0 .276.447l5.448 2.724a.5.5 0 0 1 .276.447v.792l-5.418-.903a.5.5 0 0 0-.575.41l-.5 3a.5.5 0 0 0 .14.437l.646.646H6.707l.647-.646a.5.5 0 0 0 .14-.436l-.5-3a.5.5 0 0 0-.576-.411L1 11.41v-.792a.5.5 0 0 1 .276-.447l5.448-2.724A.5.5 0 0 0 7 7V3Z"/>
-                          </svg>
-                      </span>
-                      <span class="short-text">Aerospace</span>
-                  </div>
-              </div>
-            </div>
-        </div>
-    </div>
-    <div class="section_3 mt-5 mb-5">
+    <div class="section_language mt-5 mb-5">
       <div class="container">
         <div class="row">
           <div class="col-md-8">
@@ -188,7 +170,7 @@
         </div>
       </div>
     </div>
-    <div class="section_4 mt-3">
+    <div class="section_assistant mt-5">
       <div class="container">
         <div class="assistant_heading">VIRTUAL ASSISTANT SERVICES</div>
         <div class="row mt-5 mb-5" v-for="index in 3" :key='index'>
@@ -228,7 +210,125 @@
         </div>
       </div>
     </div>
-    <div class="section_5 mt-2">
+    <div class="section-industry mt-5">
+      <div class="container">
+          <div class="title my-3">INDUSTRIES WE SERVE TO</div>
+          <div class="content mt-3 mb-4" style="font-size:22px">
+              We provide our services to multiple industries and verticals. Here is a break-up of the industries that we offer serves
+          </div>
+          <div class="gallery row">
+              <div class=" col-md-4 col-sm-6 industry my-2" v-for="(item, index) in data" :key="index">
+                  <div class="col-md-10 border-special">
+                      <span class="icon m-2">
+                          <img :src="item.url" style="width: 40px;height:40px"/>
+                      </span>
+                      <span class="short-text">{{ item.name }}</span>
+                  </div>
+              </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-choose mt-5">
+      <div class="container">
+          <div class="title text-center my-5">WHY CHOOSE US</div>
+          <div class="row align-items-center pos-relative">
+              <div class="col-md-6">
+                  <div class="content px-3">
+                      Browse Case Studies to find out how our Multiilingual Virtual Assistants have helped our global customers to exceed their expectations. Browse Case Studies to find out how our Multilingual Virtual Assistants have helped our global customers to exceed their expectations. Browse Case Studies to find out how our Multilingual Virtual Assistants have helped our global customers to exceed their expectations.
+                  </div>
+              </div>
+              <div class="col-md-6 bg-color-orange">
+                  <div class="row my-5">
+                      <div class="total-content col-md-6">
+                          <div class="d-flex justify-content-center align-items-center">
+                              <div class="icon">
+                                  <img src="images/1.png">
+                              </div>
+                              <div class="amount text-center">
+                                  <div class="count">15+</div>
+                                  <div class="amount-text">Total Amount</div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="total-content col-md-6">
+                          <div class="d-flex justify-content-center align-items-center">
+                              <div class="icon">
+                                  <img src="images/2.png">
+                              </div>
+                              <div class="amount text-center">
+                                  <div class="count">15+</div>
+                                  <div class="amount-text">Total Amount</div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="row my-5">
+                      <div class="total-content col-md-6">
+                          <div class="d-flex justify-content-center align-items-center">
+                              <div class="icon">
+                                  <img src="images/3.png">
+                              </div>
+                              <div class="amount text-center">
+                                  <div class="count">15+</div>
+                                  <div class="amount-text">Total Amount</div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="total-content col-md-6">
+                          <div class="d-flex justify-content-center align-items-center">
+                              <div class="icon">
+                                  <img src="images/4.png">
+                              </div>
+                              <div class="amount text-center">
+                                  <div class="count">15+</div>
+                                  <div class="amount-text">Total Amount</div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="know-more">
+                  <button>Know More</button>
+              </div>
+          </div>
+      </div>
+    </div>
+    <div class="section_case_study mt-5">
+      <div class="container">
+        <p class="case_header my-5">CASE STUDY</p>
+        <div class="row">
+          <div class="case_content col-md-6 d-flex p-3">
+            <div class="d-flex justify-content-center align-items-streetch">
+              <img src="images/keyboard.png"/>
+            </div>
+            <div class="case_item">
+              <p class="mb-0" style="font-size: 25px; color :#32B2C1; font-weight:500">CASE STUDY</p>
+              <p class="mb-0 mt-3" style="font-size: 14px; ">
+                Browse Case Studies to find out how Multilingual Virtual Assistants
+                have helped our global customers to exceed their expectations. Browse
+                Case Studies to find out how our Multilingual Virtual Assistants have helped
+                our global customers to exceed their expectations.  Browse Case Studies to
+                find out how our Multilingual Virtual Assistants have helped our global
+                customers to exceed their expectations. Browse Case Studies to find out
+                how our Multilingual Virtual Assistants have helped our global customers to
+                exceed their expectations. Browse Case Studies to find out
+                how our Multilingual Virtual Assistants have helped our global customers to
+                exceed their expectations.Browse Case Studies to find out
+                how our Multilingual Virtual Assistants have helped our global customers to
+                exceed their expectations.
+              </p>
+              <div class="d-flex justify-content-end mt-4 mx-3" >
+                <button class="know_button">Know More</button>
+              </div>
+            </div>
+          </div>
+          <div class="case_image col-md-6">
+            <img src="images/case_study.png" style="max-width: 100%; min-height:100%" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section_testmonials mt-5">
       <div class="container">
         <div class="row">
           <p class="testing">TESTMONIALS</p>
@@ -382,7 +482,38 @@
     components : {
       Carousel,
       Slide,
-    },  
+    }, 
+    data() {
+      return {
+        data:
+        [
+          { url:'images/icons/plane.svg', name : 'Aerospace' },
+          { url:'images/icons/agriculture.svg', name : 'Agriculture' },
+          { url:'images/icons/car.svg', name : 'Automotive' },
+          { url:'images/icons/chemical.svg', name : 'Chemical' },
+          { url:'images/icons/brokerage.svg', name : 'Custom Brokerage' },
+          { url:'images/icons/defense.svg', name : 'Defense/Arm' },
+          { url:'images/icons/energy.svg', name : 'Energy' },
+          { url:'images/icons/education.svg', name : 'Education' },
+          { url:'images/icons/entertainment.svg', name : 'Entertainment' },
+          { url:'images/icons/finance.svg', name : 'Finance' },
+          { url:'images/icons/forestry.svg', name : 'Forestry' },
+          { url:'images/icons/food.svg', name : 'Food' },
+          { url:'images/icons/health.svg', name : 'Healthcare' },
+          { url:'images/icons/hospital.svg', name : 'Hospitality' },
+          { url:'images/icons/it.svg', name : 'Information Technology' },
+          { url:'images/icons/Logistics.svg', name : 'Logistics' },
+          { url:'images/icons/Manufacturing.svg', name : 'Manufacturing' },
+          { url:'images/icons/Mass.svg', name : 'Mass' },
+          { url:'images/icons/Multimedia.svg', name : 'Multimedia' },
+          { url:'images/icons/Public Sector.svg', name : 'Public Sector/Government' },
+          { url:'images/icons/Pharmaceutical.svg', name : 'Pharmaceutical' },
+          { url:'images/icons/Retail.svg', name : 'Retail & e-Commerce' },
+          { url:'images/icons/Telecommunications.svg', name : 'Telecommunications' },
+          { url:'images/icons/Transport.svg', name : 'Transport' },
+        ]
+      }
+    }
   }
 </script>
 
