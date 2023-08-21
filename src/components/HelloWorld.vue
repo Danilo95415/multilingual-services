@@ -10,7 +10,7 @@
             <div class="nav_bar d-flex flex-column">
                 <ul class="all_navbar d-flex ul_list">
                   <li class="list_item_navbar"><img src="images/navbar_logo.png" style="margin-left: 6px;" /> ALL SERVICES</li>
-                  <li class="list_item_navbar">Industries We Serve nbbnnbnnnnnnnnnnnnnnnnnnnnnnnn</li>
+                  <li class="list_item_navbar">Industries We Serve asldkjflasdf</li>
                   <li class="list_item_navbar">Languages</li>
                   <li class="list_item_navbar">About Us</li>
                   <li class="list_item_navbar">Contact Us</li>
