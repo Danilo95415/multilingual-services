@@ -1,6 +1,7 @@
 body {
     overflow-x: hidden;
     font-weight: 600 !important;
+    font-family: 'Roboto,sans-serif'!important;
 }
 
 .topbar {
@@ -23,6 +24,7 @@ body {
     box-shadow:  0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
 }
 .list_item_navbar {
+    font-family: 'Roboto,sans-serif';
     font-size: 13px;
     /* font-weight: 500; */
     border-right: 1px solid #fff;
@@ -36,9 +38,10 @@ body {
     border-right: none;
 }
 .list_item {
+    font-family: 'Roboto,sans-serif';
     font-size: 13px;
     line-height: 14px;
-    padding: 8px 18px 8px;
+    padding: 12px 18px 8px;
     border-right: 1px solid #fff;
 }
 .list_item:first-of-type {
@@ -68,7 +71,7 @@ body {
     border-left: 5px solid #ff6600;
 }
 .get_ahead {
-    font-family: "Segoe UI";
+    font-family: "'Roboto', sans-serif";
     font-size: 28px;
     /* font-weight: 400; */
     line-height: 32px;
@@ -79,7 +82,7 @@ body {
     margin-bottom: 0;
 }
 .foreign {
-    font-family: "Segoe UI";
+    font-family: "Roboto,sans-serif";
     font-size: 18px;
     /* font-weight: 400; */
     line-height: 29px;
@@ -147,12 +150,14 @@ body {
     font-size: 40px;
     font-weight: bold;
     color: #32b2c1;
+    font-family: 'Roboto,sans-serif';
     text-align: center;
     padding: 30px;
 }
 .item_name p{
     color: #ff6600;
     margin-bottom: 0;
+    font-family: 'Roboto,sans-serif';
     /* font-weight: 500; */
 }
 
@@ -347,7 +352,7 @@ body {
 }
 
 .section-footer {
-    /* font-family: "Roboto"; */
+    font-family: "Roboto,sans-serif";
     background-color: #f5f5f5;
     margin-bottom: 30px;
 }
@@ -539,7 +544,7 @@ span.input-group-text {
 }
 
 .section_2 {
-    font-family: 'Segoe UI Variable Text';
-    font-family: 'Segoe UI Variable Small';
-    font-family: 'Segoe UI Variable Display';
+    font-family: 'Roboto,sans-serif';
+    /* font-family: 'Segoe UI Variable Small';
+    font-family: 'Segoe UI Variable Display'; */
 }
