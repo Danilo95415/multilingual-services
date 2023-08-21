@@ -244,24 +244,6 @@
         </div>
       </div>
     </div>
-    <div class="section-industry mt-5">
-      <div class="container">
-          <div class="title my-3">INDUSTRIES WE SERVE TO</div>
-          <div class="content mt-3 mb-4" style="font-size:22px">
-              We provide our services to multiple industries and verticals. Here is a break-up of the industries that we offer serves
-          </div>
-          <div class="gallery row">
-              <div class=" col-md-4 col-sm-6 industry my-1" v-for="(item, index) in data" :key="index">
-                  <div class="col-md-10 border-special">
-                      <span class="icon m-2">
-                          <img :src="item.url" style="width: 40px;height:40px"/>
-                      </span>
-                      <span class="short-text">{{ item.name }}</span>
-                  </div>
-              </div>
-            </div>
-        </div>
-    </div>
     <div class="section-choose mt-5">
       <div class="container">
           <div class="title text-center my-5">WHY CHOOSE US</div>
@@ -326,6 +308,24 @@
               </div>
           </div>
       </div>
+    </div>
+    <div class="section-industry mt-5">
+      <div class="container">
+          <div class="title my-3">INDUSTRIES WE SERVE TO</div>
+          <div class="content mt-3 mb-4" style="font-size:22px">
+              We provide our services to multiple industries and verticals. Here is a break-up of the industries that we offer serves
+          </div>
+          <div class="gallery row">
+              <div class=" col-md-4 col-sm-6 industry my-1" v-for="(item, index) in data" :key="index">
+                  <div class="col-md-10 border-special">
+                      <span class="icon m-2">
+                          <img :src="item.url" style="width: 40px;height:40px"/>
+                      </span>
+                      <span class="short-text">{{ item.name }}</span>
+                  </div>
+              </div>
+            </div>
+        </div>
     </div>
     <div class="section_case_study mt-5">
       <div class="container">
