@@ -150,9 +150,9 @@
             <div class="col-md-10 mx-auto">
               <div class="box-shadow">
                 <div class="py-3 bg-opacity">
-                  <p class='text-center' style="margin-bottom: 0; font-size:20px; font-weight:500;color:#fff">Request a FREE QUOTE</p>
-                  <p class='text-center' style="margin-bottom: 0; font-size:16px;font-weight:300;color:#fff">Partner with Multilingual Experts!</p>
-                  <p class='text-center' style="margin-bottom: 0;font-size:14px;font-weight:300;color:#fff">Save your cost within 12 Hours.</p>
+                  <p class='text-center' style="margin-bottom: 0; font-size:20px; color:#fff">Request a FREE QUOTE</p>
+                  <p class='text-center' style="margin-bottom: 0; font-size:16px; color:#fff">Partner with Multilingual Experts!</p>
+                  <p class='text-center' style="margin-bottom: 0;font-size:14px; color:#fff">Save your cost within 12 Hours.</p>
                 </div>
                 <div class="contact_us d-flex flex-column py-3">
                   <div class="input_item">

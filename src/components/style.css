@@ -1,5 +1,6 @@
 body {
     overflow-x: hidden;
+    font-weight: 600 !important;
 }
 
 .topbar {
@@ -23,7 +24,7 @@ body {
 }
 .list_item_navbar {
     font-size: 12px;
-    font-weight: 500;
+    /* font-weight: 500; */
     border-right: 1px solid #fff;
     padding: 6px 10px;
     color: #fff;
@@ -36,7 +37,7 @@ body {
 }
 .list_item {
     font-size: 12px;
-    font-weight: 400;
+    /* font-weight: 400; */
     padding: 12px 22px;
     border-right: 1px solid #fff;
 }
@@ -69,7 +70,7 @@ body {
 .get_ahead {
     font-family: "Segoe UI";
     font-size: 28px;
-    font-weight: 400;
+    /* font-weight: 400; */
     line-height: 32px;
     letter-spacing: 0em;
     text-align: left;
@@ -80,7 +81,7 @@ body {
 .foreign {
     font-family: "Segoe UI";
     font-size: 18px;
-    font-weight: 400;
+    /* font-weight: 400; */
     line-height: 29px;
     letter-spacing: 0em;
     text-align: left;
@@ -152,7 +153,7 @@ body {
 .item_name p{
     color: #ff6600;
     margin-bottom: 0;
-    font-weight: 500;
+    /* font-weight: 500; */
 }
 
 .section_language .title{
@@ -164,7 +165,7 @@ body {
 .assistant_heading {
     width: 425px;
     font-size: 26px;
-    font-weight: 400;
+    /* font-weight: 400; */
     color: #fff;
     padding: 3px 20px;
     background-color: #474747;
@@ -185,13 +186,13 @@ body {
 
 .assistant_item {
     font-size: 22px;
-    font-weight: 500;
+    /* font-weight: 500; */
     color: #ff6600;
 }
 .assistant_item_child {
     font-size: 15px;
     color: #E7D9D9;
-    font-weight: 400;
+    /* font-weight: 400; */
 }
 
 /* INDUSTRY */
@@ -288,7 +289,7 @@ body {
 
 .section-language .support .title {
     width: 150px;
-    font-weight: 600;
+    /* font-weight: 600; */
 }
 
 .section-language .support .support-line {
