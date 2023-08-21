@@ -1,6 +1,5 @@
 body {
     overflow-x: hidden;
-    font-family: 'Segoe' !important;
 }
 
 .topbar {
@@ -536,4 +535,10 @@ span.input-group-text {
 
 .box-shadow {
     box-shadow: 2px 2px 5px #eee;
+}
+
+.section_2 {
+    font-family: 'Segoe UI Variable Text';
+    font-family: 'Segoe UI Variable Small';
+    font-family: 'Segoe UI Variable Display';
 }

@@ -138,7 +138,7 @@
                 </div>
                 <div class="m-3">
                   <div class="ahead-item d-flex align-items-center">
-                    <div class="icon"><img src="images/icon1.png" height="50px"></div>
+                    <div class="icon"><img src="images/icon4.png" height="50px"></div>
                     <!-- <div class="m-1 word text-white">logoipsum</div> -->
                   </div>
                 </div>
