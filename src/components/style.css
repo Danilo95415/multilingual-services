@@ -68,7 +68,7 @@ body {
     border-left: 5px solid #ff6600;
 }
 .get_ahead {
-    font-family: Acme;
+    font-family: "Segoe UI";
     font-size: 28px;
     font-weight: 400;
     line-height: 32px;
@@ -79,8 +79,7 @@ body {
     margin-bottom: 0;
 }
 .foreign {
-
-    font-family: Acme;
+    font-family: "Segoe UI";
     font-size: 18px;
     font-weight: 400;
     line-height: 29px;
