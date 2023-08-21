@@ -204,46 +204,32 @@
         </div>
       </div>
     </div>
-    <div class="section_assistant mt-5">
+    <div class="section_3">
       <div class="container">
-        <div class="assistant_heading">VIRTUAL ASSISTANT SERVICES</div>
-        <div class="row mt-5 mb-5" v-for="index in 3" :key='index'>
-          <div class="col-md-4 d-flex justify-content-center ">
-            <div class="col-md-9">
-              <div class="assistant_item">EVENT PLANNING SERVICES</div>
-              <div class="assistant_item_child">EVENT PLANNING SERVICES EVENT PLANNING SERVICES EVENT PLANNING SERVICES</div>
-            </div>
-            <div class="col-md-3 text-center">
-              <svg style="color: #FF6600;" xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-calendar-fill" viewBox="0 0 16 16">
-                <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5h16V4H0V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5z"/>
-              </svg>
-            </div>
-          </div>
-          <div class="col-md-4 d-flex justify-content-center ">
-            <div class="col-md-9">
-              <div class="assistant_item">EVENT PLANNING SERVICES</div>
-              <div class="assistant_item_child">EVENT PLANNING SERVICES EVENT PLANNING SERVICES EVENT PLANNING SERVICES</div>
-            </div>
-            <div class="col-md-3 text-center">
-              <svg style="color: #FF6600;" xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-calendar-fill" viewBox="0 0 16 16">
-                <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5h16V4H0V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5z"/>
-              </svg>
-            </div>
-          </div>
-          <div class="col-md-4 d-flex justify-content-center ">
-            <div class="col-md-9">
-              <div class="assistant_item">EVENT PLANNING SERVICES</div>
-              <div class="assistant_item_child">EVENT PLANNING SERVICES EVENT PLANNING SERVICES EVENT PLANNING SERVICES</div>
-            </div>
-            <div class="col-md-3 text-center">
-              <svg style="color: #FF6600;" xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-calendar-fill" viewBox="0 0 16 16">
-                <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5h16V4H0V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5z"/>
-              </svg>
+        <div class="row">
+          <div class="col-md-4 col-sm-12 col-12" v-for="index in 9" :key="index">
+            <div class="serv-section-3">
+              <div class="serv-section-3-icon">
+                <div class="glyph-icon flaticon-support">
+                  <svg style="color: #337ab7;" xmlns="http://www.w3.org/2000/svg"  width="50" height="50" fill="currentColor" class="bi bi-calendar-fill" viewBox="0 0 16 16">
+                    <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5h16V4H0V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5z"/>
+                  </svg>
+                </div>
+              </div>
+              <div class="serv-section-disc">
+                <h4>
+                  <a href="">MULTINGUAL CALL CENTER</a>
+                </h4>
+                <h5>
+                  <p>Get your business processes transform with proficient call center support.</p>
+                </h5>
+              </div>
+              <div class="section-heading-line-left"></div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </div> 
     <div class="section-choose mt-5">
       <div class="container">
           <div class="title text-center my-5">WHY CHOOSE US</div>
