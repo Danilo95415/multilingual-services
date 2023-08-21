@@ -61,59 +61,88 @@
             </ul>
       </div>
     </div>
-    <div class="section_2 py-5">
+    <div class="section_2 py-3">
       <div class="container mb-5">
-        <div class="row">  
-          <div class="box_1 col-md-5 p-0 mt-4 ">
-            <div class="container light_item">
-              <div class="d-flex flex-column py-5" style="margin-top: 20px;">
-                <p class="get_ahead">Get Ahead of Competition with</p>
-                <p class="foreign">FOREIGN LANGUAGE SERVICE COMPANY</p>
-                  <div class=" d-flex justify-content-center mt-1">
-                    <div class="inbox col-md-5 d-flex">
-                      <div class="col-md-4 d-flex align-items-center justify-content-center" style="background-color: #DDE1E6;">
-                        <img src="images/smiley.svg" />
+        <div class="row">
+          <div class="col-md-7 row">
+            <div class="box_1 col-md-10 p-0 mt-4 ">
+              <div class="container light_item">
+                <div class="d-flex flex-column py-5" style="margin-top: 20px;">
+                  <p class="get_ahead">Get Ahead of Competition with</p>
+                  <p class="foreign">FOREIGN LANGUAGE SERVICE COMPANY</p>
+                    <div class=" d-flex justify-content-center mt-1">
+                      <div class="inbox col-md-5 d-flex">
+                        <div class="col-md-4 d-flex align-items-center justify-content-center" style="background-color: #DDE1E6;">
+                          <img src="images/smiley.svg" />
+                        </div>
+                        <div class="col-md-8 " style="padding: 12px;">
+                          <p style="margin-bottom: 0; color:#FF6600 ; font-weight:500">250+</p>
+                          <p style="margin-bottom: 0; font-size:14px">Happy customer</p>
+                        </div>
                       </div>
-                      <div class="col-md-8 " style="padding: 12px;">
-                        <p style="margin-bottom: 0; color:#FF6600 ; font-weight:500">250+</p>
-                        <p style="margin-bottom: 0; font-size:14px">Happy customer</p>
+                      <div class="inbox col-md-5 d-flex">
+                        <div  class="col-md-4 d-flex align-items-center justify-content-center" style="background-color: #DDE1E6;">
+                          <img src="images/Vector.svg" />
+                        </div>
+                        <div  class="col-md-8"  style="padding: 12px;">
+                          <p style="margin-bottom: 0; color:#FF6600 ; font-weight:500">600+</p>
+                          <p style="margin-bottom: 0;font-size:13px">Completed projects</p>
+                        </div>
+                      </div>
+                    </div>  
+                    <div class=" d-flex justify-content-center mt-3">
+                      <div class="inbox col-md-5 d-flex">
+                        <div class="col-md-4 d-flex align-items-center justify-content-center" style="background-color: #DDE1E6;">
+                          <img src="images/Vector_2.svg" />
+                        </div>
+                        <div class="col-md-8 " style="padding: 12px;">
+                          <p style="margin-bottom: 0; color:#FF6600; font-weight:500">108K+</p>
+                          <p style="margin-bottom: 0; font-size:13px">Available Resources</p>
+                        </div>
+                      </div>
+                      <div class="inbox col-md-5 d-flex">
+                        <div  class="col-md-4 d-flex align-items-center justify-content-center" style="background-color: #DDE1E6;">
+                          <img src="images/users.svg" />
+                        </div>
+                        <div  class="col-md-8"  style="padding: 12px;">
+                          <p style="margin-bottom: 0; color:#FF6600; font-weight:500">11K+</p>
+                          <p style="margin-bottom: 0;font-size:14px">Subscribers</p>
+                        </div>
                       </div>
                     </div>
-                    <div class="inbox col-md-5 d-flex">
-                      <div  class="col-md-4 d-flex align-items-center justify-content-center" style="background-color: #DDE1E6;">
-                        <img src="images/Vector.svg" />
-                      </div>
-                      <div  class="col-md-8"  style="padding: 12px;">
-                        <p style="margin-bottom: 0; color:#FF6600 ; font-weight:500">600+</p>
-                        <p style="margin-bottom: 0;font-size:13px">Completed projects</p>
-                      </div>
-                    </div>
-                  </div>  
-                  <div class=" d-flex justify-content-center mt-3">
-                    <div class="inbox col-md-5 d-flex">
-                      <div class="col-md-4 d-flex align-items-center justify-content-center" style="background-color: #DDE1E6;">
-                        <img src="images/Vector_2.svg" />
-                      </div>
-                      <div class="col-md-8 " style="padding: 12px;">
-                        <p style="margin-bottom: 0; color:#FF6600; font-weight:500">108K+</p>
-                        <p style="margin-bottom: 0; font-size:13px">Available Resources</p>
-                      </div>
-                    </div>
-                    <div class="inbox col-md-5 d-flex">
-                      <div  class="col-md-4 d-flex align-items-center justify-content-center" style="background-color: #DDE1E6;">
-                        <img src="images/users.svg" />
-                      </div>
-                      <div  class="col-md-8"  style="padding: 12px;">
-                        <p style="margin-bottom: 0; color:#FF6600; font-weight:500">11K+</p>
-                        <p style="margin-bottom: 0;font-size:14px">Subscribers</p>
-                      </div>
-                    </div>
+                    
                   </div>
-                  
-                </div>
+              </div>
+            </div>
+            <div class="ahead-icons row mt-4">
+            <div class="title text-white my-3">TRUST BY:</div>
+            <div class="col-md-3">
+              <div class="ahead-item d-flex align-items-center">
+                <div class="icon"><img src="images/Vector.svg" width="40px"></div>
+                <div class="m-3 word text-white">logoipsum</div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="ahead-item d-flex align-items-center">
+                <div class="icon"><img src="images/Vector.svg" width="40px"></div>
+                <div class="m-3 word text-white">logoipsum</div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="ahead-item d-flex align-items-center">
+                <div class="icon"><img src="images/Vector.svg" width="40px"></div>
+                <div class="m-3 word text-white">logoipsum</div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="ahead-item d-flex align-items-center">
+                <div class="icon"><img src="images/Vector.svg" width="40px"></div>
+                <div class="m-3 word text-white">logoipsum</div>
+              </div>
             </div>
           </div>
-          <div class="col-md-2" />
+          </div>
+          <!-- <div class="col-md-1" /> -->
           <div class=" col-md-5 mt-3 row" >
             <div class="col-md-8 mx-auto">
               <div class="box-shadow">
@@ -144,33 +173,6 @@
                   </div>
                   <p style="margin-bottom: 0;font-size:12px;font-weight:300; padding:10px 0 0 8px;">We repect your privacy <span style="color:#32B2C1">Policy</span></p>
                 </div>
-              </div>
-            </div>
-          </div>
-          <div class="ahead-icons col-md-7 row mt-4">
-            <div class="title text-white my-3">TRUST BY:</div>
-            <div class="col-md-3">
-              <div class="ahead-item d-flex align-items-center">
-                <div class="icon"><img src="images/Vector.svg" width="40px"></div>
-                <div class="m-3 word text-white">logoipsum</div>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="ahead-item d-flex align-items-center">
-                <div class="icon"><img src="images/Vector.svg" width="40px"></div>
-                <div class="m-3 word text-white">logoipsum</div>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="ahead-item d-flex align-items-center">
-                <div class="icon"><img src="images/Vector.svg" width="40px"></div>
-                <div class="m-3 word text-white">logoipsum</div>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="ahead-item d-flex align-items-center">
-                <div class="icon"><img src="images/Vector.svg" width="40px"></div>
-                <div class="m-3 word text-white">logoipsum</div>
               </div>
             </div>
           </div>
