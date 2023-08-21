@@ -1,7 +1,7 @@
 body {
     overflow-x: hidden;
     /* font-weight: 600 !important; */
-    font-family: 'Roboto,sans-serif';
+    font-family: Roboto,sans-serif;
 }
 
 .topbar {
@@ -24,7 +24,7 @@ body {
     box-shadow:  0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
 }
 .list_item_navbar {
-    font-family: 'Roboto,sans-serif';
+    font-family: Roboto, sans-serif;
     font-size: 13px;
     /* font-weight: 500; */
     border-right: 1px solid #fff;
@@ -38,7 +38,7 @@ body {
     border-right: none;
 }
 .list_item {
-    font-family: 'Roboto,sans-serif';
+    font-family: Roboto, sans-serif;
     font-size: 13px;
     line-height: 14px;
     font-weight: 600;
