@@ -11,6 +11,7 @@ body {
 .ul_list {
     list-style-type: none;
     margin-bottom: 0;
+    color: white;
 }
 
 .all_navbar {
@@ -143,8 +144,9 @@ body {
     margin-right: 0;
 }
 .testing {
-    font-size: 36px;
-    font-weight: 500;
+    font-size: 40px;
+    font-weight: bold;
+    color: #32b2c1;
     text-align: center;
     padding: 30px;
 }
@@ -152,6 +154,12 @@ body {
     color: #ff6600;
     margin-bottom: 0;
     font-weight: 500;
+}
+
+.section_language .title{
+    font-size: 40px;
+    font-weight: bold;
+    color: #32b2c1;
 }
 /*Assistant Heading*/
 .assistant_heading {
@@ -193,9 +201,9 @@ body {
 }
 
 .section-industry .title {
+    font-size: 40px;
+    font-weight: bold;
     color: #32b2c1;
-    font-size: 25px;
-    font-weight: 500;
 }
 
 .section-industry .gallery .short-text {
@@ -212,10 +220,10 @@ body {
 
 /*case-study*/
 .case_header {
-    font-size: 25px;
-     color:#32B2C1;
-     font-weight: 500;
-     text-align:center;
+    font-size: 40px;
+    font-weight: bold;
+    color: #32b2c1;
+    text-align:center;
 }
 .case_content {
     border: 1px solid #CCCCCC;
@@ -234,9 +242,9 @@ body {
 
 /*choose us*/
 .section-choose .title {
+    font-size: 40px;
+    font-weight: bold;
     color: #32b2c1;
-    font-size: 30px;
-    font-weight: 500;
 }
 
 .section-choose .content {
@@ -288,6 +296,53 @@ body {
     width: 100px;
     height: 2px;
     background-color: #FF6600;
+}
+
+.section-price .bg-price{
+    background-image: url('../../public/images/bg-price.png');
+    background-size: cover;
+}
+
+.section-price .title {
+    font-size: 40px;
+    font-weight: bold;
+    color: #32b2c1;
+    margin-bottom: 20px;
+}
+
+.section-google .content{
+    line-height: 210%;
+}
+
+.section-google .title {
+    font-size: 30px;
+    color: #32b2c1;
+    font-weight: bold;
+    text-align: center;
+    margin: 30px auto;
+}
+
+.section-google .send-btn {
+    border: 2px solid #ff6600;
+    border-radius: 15px;
+    outline: none;
+    background-color: white;
+    color: #ff6600;
+    font-size: 20px;
+    width: 70%;
+}
+
+.section-google input, .section-google textarea {
+    outline: none;
+}
+
+.section-google input:focus, .section-google textarea:focus {
+    outline: none;
+    border: none;
+}
+
+.section-price .context {
+    line-height: 200%;
 }
 
 .section-footer {
@@ -424,4 +479,28 @@ body {
 
 .footer-last .links .link {
     color: white;
+}
+
+.footer-last.pos-relative {
+    position: relative;
+}
+
+.footer-last .request-quote {
+    background-color: #32B2C1;
+    width: 100px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top-right-radius: 40px;
+}
+
+.footer-last .request-quote a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 90%;
 }

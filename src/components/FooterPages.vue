@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="section-footer">
+        <div class="section-footer mt-4">
             <div class="container">
                 <div class="row">
                     <div class="col-md-4 p-4">
@@ -118,6 +118,61 @@
                                 </span>
                             </p>
                             We ensure apt <span class="bold color-special">quality control</span> to match functional accuracy and overallconsistency. This helps us to provide superior quality according to your specific industry requirements. We are proud to help you with our global network of professional expert teams who possess subject-matter expertise.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-price py-4 mt-5">
+            <div class="title text-center mb-5">P R I C E</div>
+            <div class="bg-price py-5">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="context">
+                      Being pioneer in Multiilingual Business Services, we provide complete solutions for foreign languages. Our teams provide multilingual solutions that excatly match your requirement. Our experts understand that quality is most important in foreign language support hence our native & multi-industry expert provide superior solution on all of your business requirements.
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="context">
+                      Being pioneer in Multiilingual Business Services, we provide complete solutions for foreign languages. Our teams provide multilingual solutions that excatly match your requirement. Our experts understand that quality is most important in foreign language support hence our native & multi-industry expert provide superior solution on all of your business requirements.
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="context">
+                      Being pioneer in Multiilingual Business Services, we provide complete solutions for foreign languages. Our teams provide multilingual solutions that excatly match your requirement. Our experts understand that quality is most important in foreign language support hence our native & multi-industry expert provide superior solution on all of your business requirements.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="section-google">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 d-flex align-items-center">
+                        <div class="content">
+                            Being pioneer in Multiilingual Business Services, we provide complete solutions for foreign languages. Our teams provide multilingual solutions that excatly match your requirement. Our experts understand that quality is most important in foreign language support hence our native & multi-industry expert provide superior solution on all of your business requirements.
+                        </div>
+                    </div>
+                    <div class="col-md-6 row justify-content-center">
+                        <div class="col-md-8">
+                            <!-- <div class="title">Contact</div> -->
+                            <div class="mb-3">
+                                <label for="contact-name" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="contact-name" placeholder="Name">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" id="message" rows="3"></textarea>
+                            </div>
+                            <div class="mb-3 text-center">
+                                <button class="send-btn">Send</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -251,7 +306,7 @@
                 </div>
             </div>
         </div>
-        <div class="footer-last">
+        <div class="footer-last pos-relative">
             <div class="container d-flex justify-content-between p-3 text-white">
                 <div class="copyright">@2023, PIE Multilingual Services All Rights.</div>
                 <div class="links">
@@ -271,6 +326,23 @@
                         <span class="link">FAQ's</span>
                     </a>
                 </div>
+            </div>
+            <div class="request-quote">
+                <a href="#">
+                    R<br>
+                    E<br>
+                    Q<br>
+                    U<br>
+                    E<br>
+                    S<br>
+                    T<br><br>
+                    A<br><br>
+                    Q<br>
+                    U<br>
+                    O<br>
+                    T<br>
+                    E<br>
+                </a>
             </div>
         </div>
     </div>

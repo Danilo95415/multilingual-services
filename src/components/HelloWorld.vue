@@ -58,7 +58,6 @@
               <li class="list_item">PHOTO EDITING<br/><span class="d-flex justify-start">SERVICES</span> </li>
               <li class="list_item">VIRTUAL ASSISTANT<br/><span class="d-flex justify-start">SERVICES</span> </li>
               <li class="list_item">FINANCE<br/><span class="d-flex justify-start">ACCOUNTING</span> </li>
-              <li class="list_item">TESTIMONIAL</li>
             </ul>
       </div>
     </div>
@@ -152,7 +151,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-8">
-            <p style="font-size: 25px; color:#32B2C1">OUTSOURCE FOREIGN LANGUAGE SERVICES</p>
+            <p class="title">OUTSOURCE FOREIGN LANGUAGE SERVICES</p>
             <p>PlE Multilingual is the ultimate answer to meet your business service demand. Our fast and cost-effective processes make us a top choice among the clients irrespective of geographical boundaries. We follow up-to-date computing environment and methodology, 
               which smoothly converts your project concepts into reality. Whether it is language translation, language transcription or any other business service, we ensure efficiency, professionalism and quality in more than 150+ languages. Most importantly, we understand that you deserve the best and thus ensure that your project undergo with multi quality stage to deliver
                <span class="color-special bold">excellent quality</span>.
@@ -217,7 +216,7 @@
               We provide our services to multiple industries and verticals. Here is a break-up of the industries that we offer serves
           </div>
           <div class="gallery row">
-              <div class=" col-md-4 col-sm-6 industry my-2" v-for="(item, index) in data" :key="index">
+              <div class=" col-md-4 col-sm-6 industry my-1" v-for="(item, index) in data" :key="index">
                   <div class="col-md-10 border-special">
                       <span class="icon m-2">
                           <img :src="item.url" style="width: 40px;height:40px"/>
@@ -402,76 +401,6 @@
         </div>
       </div>
     </div>
-    <div class="section-language mt-5 mb-5">
-      <div class="container">
-          <div class="assistant_heading">FOREIGN LANGUAGE SUPPORT</div>
-          <div class="col-md-9 row mt-4">
-              <div class="support col-md-4 col-sm-6 p-3">
-                  <div class="support-icon mx-auto d-flex align-items-center justify-content-center">
-                      <img src="images/1.png">
-                  </div>
-                  <div class="support-line mx-auto mt-3 mb-2"></div>
-                  <div class="title mx-auto text-center">LANGUAGE TRANSLATION</div>
-              </div>
-              <div class="support col-md-4 col-sm-6 p-3">
-                  <div class="support-icon mx-auto d-flex align-items-center justify-content-center">
-                      <img src="images/2.png">
-                  </div>
-                  <div class="support-line mx-auto mt-3 mb-2"></div>
-                  <div class="title mx-auto text-center">LANGUAGE TRANSLATION</div>
-              </div>
-              <div class="support col-md-4 col-sm-6 p-3">
-                  <div class="support-icon mx-auto d-flex align-items-center justify-content-center">
-                      <img src="images/3.png">
-                  </div>
-                  <div class="support-line mx-auto mt-3 mb-2"></div>
-                  <div class="title mx-auto text-center">LANGUAGE TRANSLATION</div>
-              </div>
-              <div class="support col-md-4 col-sm-6 p-3">
-                  <div class="support-icon mx-auto d-flex align-items-center justify-content-center">
-                      <img src="images/4.png">
-                  </div>
-                  <div class="support-line mx-auto mt-3 mb-2"></div>
-                  <div class="title mx-auto text-center">LANGUAGE TRANSLATION</div>
-              </div>
-              <div class="support col-md-4 col-sm-6 p-3">
-                  <div class="support-icon mx-auto d-flex align-items-center justify-content-center">
-                      <img src="images/5.png">
-                  </div>
-                  <div class="support-line mx-auto mt-3 mb-2"></div>
-                  <div class="title mx-auto text-center">LANGUAGE TRANSLATION</div>
-              </div>
-              <div class="support col-md-4 col-sm-6 p-3">
-                  <div class="support-icon mx-auto d-flex align-items-center justify-content-center">
-                      <img src="images/6.png">
-                  </div>
-                  <div class="support-line mx-auto mt-3 mb-2"></div>
-                  <div class="title mx-auto text-center">LANGUAGE TRANSLATION</div>
-              </div>
-              <div class="support col-md-4 col-sm-6 p-3">
-                  <div class="support-icon mx-auto d-flex align-items-center justify-content-center">
-                      <img src="images/7.png">
-                  </div>
-                  <div class="support-line mx-auto mt-3 mb-2"></div>
-                  <div class="title mx-auto text-center">LANGUAGE TRANSLATION</div>
-              </div>
-              <div class="support col-md-4 col-sm-6 p-3">
-                  <div class="support-icon mx-auto d-flex align-items-center justify-content-center">
-                      <img src="images/8.png">
-                  </div>
-                  <div class="support-line mx-auto mt-3 mb-2"></div>
-                  <div class="title mx-auto text-center">LANGUAGE TRANSLATION</div>
-              </div>
-              <div class="support col-md-4 col-sm-6 p-3">
-                  <div class="support-icon mx-auto d-flex align-items-center justify-content-center">
-                      <img src="images/9.png">
-                  </div>
-                  <div class="support-line mx-auto mt-3 mb-2"></div>
-                  <div class="title mx-auto text-center">LANGUAGE TRANSLATION</div>
-              </div>
-          </div>
-      </div>
-  </div>
   </div>
 </template>
 
