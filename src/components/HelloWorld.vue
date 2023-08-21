@@ -119,25 +119,25 @@
             <div class="col-md-3">
               <div class="ahead-item d-flex align-items-center">
                 <div class="icon"><img src="images/Vector.svg" width="40px"></div>
-                <div class="m-3 word text-white">logoipsum</div>
+                <div class="m-1 word text-white">logoipsum</div>
               </div>
             </div>
             <div class="col-md-3">
               <div class="ahead-item d-flex align-items-center">
                 <div class="icon"><img src="images/Vector.svg" width="40px"></div>
-                <div class="m-3 word text-white">logoipsum</div>
+                <div class="m-1 word text-white">logoipsum</div>
               </div>
             </div>
             <div class="col-md-3">
               <div class="ahead-item d-flex align-items-center">
                 <div class="icon"><img src="images/Vector.svg" width="40px"></div>
-                <div class="m-3 word text-white">logoipsum</div>
+                <div class="m-1 word text-white">logoipsum</div>
               </div>
             </div>
             <div class="col-md-3">
               <div class="ahead-item d-flex align-items-center">
                 <div class="icon"><img src="images/Vector.svg" width="40px"></div>
-                <div class="m-3 word text-white">logoipsum</div>
+                <div class="m-1 word text-white">logoipsum</div>
               </div>
             </div>
           </div>
