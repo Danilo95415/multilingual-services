@@ -1,5 +1,6 @@
 body {
     overflow-x: hidden;
+    font-family: "Roboto" !important;
 }
 
 .topbar {
@@ -337,8 +338,9 @@ body {
 }
 
 .section-google input:focus, .section-google textarea:focus {
-    outline: none;
-    border: none;
+    box-shadow: none;
+    outline: none !important;
+    border: 2px solid #ff6600;
 }
 
 .section-price .context {
@@ -503,4 +505,36 @@ body {
     text-decoration: none;
     font-weight: bold;
     line-height: 90%;
+}
+
+
+/* ahead */
+
+.ahead-icons .title {
+    font-size: 30px;
+}
+
+.ahead-icons .word {
+    font-size: 25px;
+}
+
+.bg-opacity {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.input_item input{
+    text-indent: 10px;
+    height: 40px;
+}
+
+span.input-group-text {
+    border-right: 1px solid gray !important;
+}
+
+.input_item input[name="phone"] {
+    border-left: none;
+}
+
+.box-shadow {
+    box-shadow: 2px 2px 5px #eee;
 }

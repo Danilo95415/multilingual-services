@@ -5,7 +5,7 @@
         <div class="row">
           <div class="d-flex justify-content-between align-items-center">
             <div class="logo">
-              <img src="images/logo.png" />
+              <img src="https://www.piemultilingual.com/wp-content/themes/piemultilingual/images/piemulti.svg" height="60px"/>
             </div>
             <div class="nav_bar d-flex flex-column">
                 <ul class="all_navbar d-flex ul_list">
@@ -108,39 +108,69 @@
                         <p style="margin-bottom: 0;font-size:14px">Subscribers</p>
                       </div>
                     </div>
-                  </div>         
+                  </div>
+                  
                 </div>
             </div>
           </div>
           <div class="col-md-2" />
           <div class=" col-md-5 mt-3 row" >
             <div class="col-md-8 mx-auto">
-              <div style="background-color: #FF6600;" class="py-3">
-                <p class='text-center' style="margin-bottom: 0; font-size:20px; font-weight:500;color:#fff">Request a FREE QUOTE</p>
-                <p class='text-center' style="margin-bottom: 0; font-size:16px;font-weight:300;color:#fff">Partner with Multilingual Experts!</p>
-                <p class='text-center' style="margin-bottom: 0;font-size:14px;font-weight:300;color:#fff">Save your cost within 12 Hours.</p>
+              <div class="box-shadow">
+                <div class="py-3 bg-opacity">
+                  <p class='text-center' style="margin-bottom: 0; font-size:20px; font-weight:500;color:#fff">Request a FREE QUOTE</p>
+                  <p class='text-center' style="margin-bottom: 0; font-size:16px;font-weight:300;color:#fff">Partner with Multilingual Experts!</p>
+                  <p class='text-center' style="margin-bottom: 0;font-size:14px;font-weight:300;color:#fff">Save your cost within 12 Hours.</p>
+                </div>
+                <div class="contact_us d-flex flex-column py-3">
+                  <div class="input_item">
+                    <input type="text" name="name" id="name" placeholder="Name">
+                  </div>
+                  <div class="input_item">
+                    <input type="text" name="name" id="name" placeholder="Email">
+                  </div>
+                  <div class="input_item d-flex">
+                    <span class="input-group-text rounded-0" style="border-color: #FF6600;" id="basic-addon1">US</span>
+                    <input type="text" name="phone" id="phone" class="rounded-0" placeholder="Phone">
+                  </div>
+                  <div class="input_item pb-0">
+                    <textarea type="text" name="name" id="name"  placeholder="Write requirements" rows="5"/>
+                  </div>
+                  <div class="upload_button" >
+                    <button><img src="images/upload.png" style="width:15%; height:10%" />Upload Files</button>
+                  </div>
+                  <div class="send_button">
+                    <button ><img src="images/arrow.png" />&nbsp;SEND</button>
+                  </div>
+                  <p style="margin-bottom: 0;font-size:12px;font-weight:300; padding:10px 0 0 8px;">We repect your privacy <span style="color:#32B2C1">Policy</span></p>
+                </div>
               </div>
-              <div class="contact_us d-flex flex-column py-3">
-                <div class="input_item">
-                  <input type="text" name="name" id="name" placeholder="Name">
-                </div>
-                <div class="input_item">
-                  <input type="text" name="name" id="name" placeholder="Email">
-                </div>
-                <div class="input_item d-flex">
-                  <span class="input-group-text rounded-0" style="border-color: #FF6600;" id="basic-addon1">US</span>
-                  <input type="text" name="name" id="name" class="rounded-0" placeholder="Phone">
-                </div>
-                <div class="input_item pb-0">
-                  <textarea type="text" name="name" id="name"  placeholder="Write requirements" />
-                </div>
-                <div class="upload_button" >
-                  <button><img src="images/upload.png" style="width:15%; height:10%" />Upload Files</button>
-                </div>
-                <div class="send_button">
-                  <button ><img src="images/arrow.png" />&nbsp;SEND</button>
-                </div>
-                <p style="margin-bottom: 0;font-size:12px;font-weight:300; padding:10px 0 0 8px;">We repect your privacy <span style="color:#32B2C1">Policy</span></p>
+            </div>
+          </div>
+          <div class="ahead-icons col-md-7 row mt-4">
+            <div class="title text-white my-3">TRUST BY:</div>
+            <div class="col-md-3">
+              <div class="ahead-item d-flex align-items-center">
+                <div class="icon"><img src="images/Vector.svg" width="40px"></div>
+                <div class="m-3 word text-white">logoipsum</div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="ahead-item d-flex align-items-center">
+                <div class="icon"><img src="images/Vector.svg" width="40px"></div>
+                <div class="m-3 word text-white">logoipsum</div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="ahead-item d-flex align-items-center">
+                <div class="icon"><img src="images/Vector.svg" width="40px"></div>
+                <div class="m-3 word text-white">logoipsum</div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="ahead-item d-flex align-items-center">
+                <div class="icon"><img src="images/Vector.svg" width="40px"></div>
+                <div class="m-3 word text-white">logoipsum</div>
               </div>
             </div>
           </div>
