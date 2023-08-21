@@ -207,7 +207,7 @@
     <div class="section_3">
       <div class="container">
         <div class="row">
-          <div class="col-md-4 col-sm-12 col-12" v-for="index in 9" :key="index">
+          <div class="col-md-4 col-sm-12 col-12">
             <div class="serv-section-3">
               <div class="serv-section-3-icon">
                 <div class="glyph-icon flaticon-support">
@@ -225,6 +225,193 @@
                 </h5>
               </div>
               <div class="section-heading-line-left"></div>
+              <div class="arrow">
+                <img src="images/arrow2.png" width="50%" height="15px">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12 col-12">
+            <div class="serv-section-3">
+              <div class="serv-section-3-icon">
+                <div class="glyph-icon flaticon-support">
+                  <svg style="color: #337ab7;" xmlns="http://www.w3.org/2000/svg"  width="50" height="50" fill="currentColor" class="bi bi-calendar-fill" viewBox="0 0 16 16">
+                    <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5h16V4H0V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5z"/>
+                  </svg>
+                </div>
+              </div>
+              <div class="serv-section-disc">
+                <h4>
+                  <a href="">MARKET RESEARCH</a>
+                </h4>
+                <h5>
+                  <p>Expand your business to international markets with deep subject matter experts.</p>
+                </h5>
+              </div>
+              <div class="section-heading-line-left"></div>
+              <div class="arrow">
+                <img src="images/arrow2.png" width="50%" height="15px">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12 col-12">
+            <div class="serv-section-3">
+              <div class="serv-section-3-icon">
+                <div class="glyph-icon flaticon-support">
+                  <svg style="color: #337ab7;" xmlns="http://www.w3.org/2000/svg"  width="50" height="50" fill="currentColor" class="bi bi-calendar-fill" viewBox="0 0 16 16">
+                    <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5h16V4H0V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5z"/>
+                  </svg>
+                </div>
+              </div>
+              <div class="serv-section-disc">
+                <h4>
+                  <a href="">AUDIO TRANSCRIPTION</a>
+                </h4>
+                <h5>
+                  <p>Get your audios transcribed with 100% accuracy by our native transcribers.</p>
+                </h5>
+              </div>
+              <div class="section-heading-line-left"></div>
+              <div class="arrow">
+                <img src="images/arrow2.png" width="50%" height="15px">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12 col-12">
+            <div class="serv-section-3">
+              <div class="serv-section-3-icon">
+                <div class="glyph-icon flaticon-support">
+                  <svg style="color: #337ab7;" xmlns="http://www.w3.org/2000/svg"  width="50" height="50" fill="currentColor" class="bi bi-calendar-fill" viewBox="0 0 16 16">
+                    <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5h16V4H0V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5z"/>
+                  </svg>
+                </div>
+              </div>
+              <div class="serv-section-disc">
+                <h4>
+                  <a href="">FOREIGN LANGUAGE SERVICES</a>
+                </h4>
+                <h5>
+                  <p>Get foreign language expert support to run your business worldwide efficiently.</p>
+                </h5>
+              </div>
+              <div class="section-heading-line-left"></div>
+              <div class="arrow">
+                <img src="images/arrow2.png" width="50%" height="15px">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12 col-12">
+            <div class="serv-section-3">
+              <div class="serv-section-3-icon">
+                <div class="glyph-icon flaticon-support">
+                  <svg style="color: #337ab7;" xmlns="http://www.w3.org/2000/svg"  width="50" height="50" fill="currentColor" class="bi bi-calendar-fill" viewBox="0 0 16 16">
+                    <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5h16V4H0V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5z"/>
+                  </svg>
+                </div>
+              </div>
+              <div class="serv-section-disc">
+                <h4>
+                  <a href="">CONTENT WRITING</a>
+                </h4>
+                <h5>
+                  <p>Get 100% plagiarism-free and unique content for your business.</p>
+                </h5>
+              </div>
+              <div class="section-heading-line-left"></div>
+              <div class="arrow">
+                <img src="images/arrow2.png" width="50%" height="15px">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12 col-12">
+            <div class="serv-section-3">
+              <div class="serv-section-3-icon">
+                <div class="glyph-icon flaticon-support">
+                  <svg style="color: #337ab7;" xmlns="http://www.w3.org/2000/svg"  width="50" height="50" fill="currentColor" class="bi bi-calendar-fill" viewBox="0 0 16 16">
+                    <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5h16V4H0V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5z"/>
+                  </svg>
+                </div>
+              </div>
+              <div class="serv-section-disc">
+                <h4>
+                  <a href="">VIDEO EDITING SERVICES</a>
+                </h4>
+                <h5>
+                  <p>Make your videos more unique and impressive to attract more audience.</p>
+                </h5>
+              </div>
+              <div class="section-heading-line-left"></div>
+              <div class="arrow">
+                <img src="images/arrow2.png" width="50%" height="15px">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12 col-12">
+            <div class="serv-section-3">
+              <div class="serv-section-3-icon">
+                <div class="glyph-icon flaticon-support">
+                  <svg style="color: #337ab7;" xmlns="http://www.w3.org/2000/svg"  width="50" height="50" fill="currentColor" class="bi bi-calendar-fill" viewBox="0 0 16 16">
+                    <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5h16V4H0V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5z"/>
+                  </svg>
+                </div>
+              </div>
+              <div class="serv-section-disc">
+                <h4>
+                  <a href="">MULTINGUAL CALL CENTER</a>
+                </h4>
+                <h5>
+                  <p>Get your business processes transform with proficient call center support.</p>
+                </h5>
+              </div>
+              <div class="section-heading-line-left"></div>
+              <div class="arrow">
+                <img src="images/arrow2.png" width="50%" height="15px">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12 col-12">
+            <div class="serv-section-3">
+              <div class="serv-section-3-icon">
+                <div class="glyph-icon flaticon-support">
+                  <svg style="color: #337ab7;" xmlns="http://www.w3.org/2000/svg"  width="50" height="50" fill="currentColor" class="bi bi-calendar-fill" viewBox="0 0 16 16">
+                    <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5h16V4H0V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5z"/>
+                  </svg>
+                </div>
+              </div>
+              <div class="serv-section-disc">
+                <h4>
+                  <a href="">MARKET RESEARCH</a>
+                </h4>
+                <h5>
+                  <p>Expand your business to international markets with deep subject matter experts.</p>
+                </h5>
+              </div>
+              <div class="section-heading-line-left"></div>
+              <div class="arrow">
+                <img src="images/arrow2.png" width="50%" height="15px">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12 col-12">
+            <div class="serv-section-3">
+              <div class="serv-section-3-icon">
+                <div class="glyph-icon flaticon-support">
+                  <svg style="color: #337ab7;" xmlns="http://www.w3.org/2000/svg"  width="50" height="50" fill="currentColor" class="bi bi-calendar-fill" viewBox="0 0 16 16">
+                    <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5h16V4H0V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5z"/>
+                  </svg>
+                </div>
+              </div>
+              <div class="serv-section-disc">
+                <h4>
+                  <a href="">AUDIO TRANSCRIPTION</a>
+                </h4>
+                <h5>
+                  <p>Get your audios transcribed with 100% accuracy by our native transcribers.</p>
+                </h5>
+              </div>
+              <div class="section-heading-line-left"></div>
+              <div class="arrow">
+                <img src="images/arrow2.png" width="50%" height="15px">
+              </div>
             </div>
           </div>
         </div>

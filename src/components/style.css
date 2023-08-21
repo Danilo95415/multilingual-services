@@ -622,3 +622,8 @@ span.input-group-text {
 /* .flaticon-support:before {
     content: "\f102";
 } */
+
+.serv-section-3 .arrow {
+    padding-right: 20px;
+    text-align: right;
+}
