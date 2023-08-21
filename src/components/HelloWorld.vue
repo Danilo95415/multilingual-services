@@ -64,7 +64,7 @@
     <div class="section_2 py-3">
       <div class="container mb-5">
         <div class="row">
-          <div class="col-md-7 row">
+          <div class="col-md-8 row">
             <div class="box_1 col-md-10 p-0 mt-4 ">
               <div class="container light_item">
                 <div class="d-flex flex-column py-5" style="margin-top: 20px;">
@@ -115,36 +115,36 @@
               </div>
             </div>
             <div class="ahead-icons row mt-4">
-            <div class="title text-white my-3">TRUST BY:</div>
-            <div class="col-md-3">
-              <div class="ahead-item d-flex align-items-center">
-                <div class="icon"><img src="images/Vector.svg" width="40px"></div>
-                <div class="m-1 word text-white">logoipsum</div>
+              <div class="title text-white my-3">TRUST BY:</div>
+              <div class="col-md-3">
+                <div class="ahead-item d-flex align-items-center">
+                  <div class="icon"><img src="images/Vector.svg" width="40px"></div>
+                  <div class="m-1 word text-white">logoipsum</div>
+                </div>
               </div>
-            </div>
-            <div class="col-md-3">
-              <div class="ahead-item d-flex align-items-center">
-                <div class="icon"><img src="images/Vector.svg" width="40px"></div>
-                <div class="m-1 word text-white">logoipsum</div>
+              <div class="col-md-3">
+                <div class="ahead-item d-flex align-items-center">
+                  <div class="icon"><img src="images/Vector.svg" width="40px"></div>
+                  <div class="m-1 word text-white">logoipsum</div>
+                </div>
               </div>
-            </div>
-            <div class="col-md-3">
-              <div class="ahead-item d-flex align-items-center">
-                <div class="icon"><img src="images/Vector.svg" width="40px"></div>
-                <div class="m-1 word text-white">logoipsum</div>
+              <div class="col-md-3">
+                <div class="ahead-item d-flex align-items-center">
+                  <div class="icon"><img src="images/Vector.svg" width="40px"></div>
+                  <div class="m-1 word text-white">logoipsum</div>
+                </div>
               </div>
-            </div>
-            <div class="col-md-3">
-              <div class="ahead-item d-flex align-items-center">
-                <div class="icon"><img src="images/Vector.svg" width="40px"></div>
-                <div class="m-1 word text-white">logoipsum</div>
+              <div class="col-md-3">
+                <div class="ahead-item d-flex align-items-center">
+                  <div class="icon"><img src="images/Vector.svg" width="40px"></div>
+                  <div class="m-1 word text-white">logoipsum</div>
+                </div>
               </div>
-            </div>
           </div>
           </div>
           <!-- <div class="col-md-1" /> -->
-          <div class=" col-md-5 mt-3 row" >
-            <div class="col-md-8 mx-auto">
+          <div class=" col-md-4 mt-3 row" >
+            <div class="col-md-10 mx-auto">
               <div class="box-shadow">
                 <div class="py-3 bg-opacity">
                   <p class='text-center' style="margin-bottom: 0; font-size:20px; font-weight:500;color:#fff">Request a FREE QUOTE</p>
