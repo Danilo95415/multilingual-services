@@ -116,28 +116,31 @@
             </div>
             <div class="ahead-icons row mt-4">
               <div class="title text-white my-3">TRUST BY:</div>
-              <div class="col-md-3">
-                <div class="ahead-item d-flex align-items-center">
-                  <div class="icon"><img src="images/Vector.svg" width="40px"></div>
-                  <div class="m-1 word text-white">logoipsum</div>
+              <div class="d-flex">
+
+                <div class="m-3">
+                  <div class="ahead-item d-flex align-items-center">
+                    <div class="icon"><img src="images/icon1.png" height="50px"></div>
+                    <!-- <div class="m-1 word text-white">ARIBA</div> -->
+                  </div>
                 </div>
-              </div>
-              <div class="col-md-3">
-                <div class="ahead-item d-flex align-items-center">
-                  <div class="icon"><img src="images/Vector.svg" width="40px"></div>
-                  <div class="m-1 word text-white">logoipsum</div>
+                <div class="m-3">
+                  <div class="ahead-item d-flex align-items-center">
+                    <div class="icon"><img src="images/icon2.png" height="50px"></div>
+                    <!-- <div class="m-1 word text-white">Discovery</div> -->
+                  </div>
                 </div>
-              </div>
-              <div class="col-md-3">
-                <div class="ahead-item d-flex align-items-center">
-                  <div class="icon"><img src="images/Vector.svg" width="40px"></div>
-                  <div class="m-1 word text-white">logoipsum</div>
+                <div class="m-3">
+                  <div class="ahead-item d-flex align-items-center">
+                    <div class="icon"><img src="images/icon3.png" height="50px"></div>
+                    <div class="m-1 word text-white"></div>
+                  </div>
                 </div>
-              </div>
-              <div class="col-md-3">
-                <div class="ahead-item d-flex align-items-center">
-                  <div class="icon"><img src="images/Vector.svg" width="40px"></div>
-                  <div class="m-1 word text-white">logoipsum</div>
+                <div class="m-3">
+                  <div class="ahead-item d-flex align-items-center">
+                    <div class="icon"><img src="images/icon1.png" height="50px"></div>
+                    <!-- <div class="m-1 word text-white">logoipsum</div> -->
+                  </div>
                 </div>
               </div>
           </div>
