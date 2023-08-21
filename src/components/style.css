@@ -23,10 +23,10 @@ body {
     box-shadow:  0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
 }
 .list_item_navbar {
-    font-size: 12px;
+    font-size: 13px;
     /* font-weight: 500; */
     border-right: 1px solid #fff;
-    padding: 6px 10px;
+    padding: 6px;
     color: #fff;
 }
 .list_item_navbar:first-child {
@@ -36,9 +36,9 @@ body {
     border-right: none;
 }
 .list_item {
-    font-size: 12px;
-    /* font-weight: 400; */
-    padding: 12px 22px;
+    font-size: 13px;
+    line-height: 14px;
+    padding: 8px 18px 8px;
     border-right: 1px solid #fff;
 }
 .list_item:first-of-type {
