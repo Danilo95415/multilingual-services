@@ -408,7 +408,7 @@
     <div class="section-industry mt-5">
       <div class="container">
           <div class="title my-3 text-center">INDUSTRIES WE SERVE TO</div>
-          <div class="content mt-3 mb-4" style="font-size:22px">
+          <div class="content mt-3 mb-4 text-center" style="font-size:22px; padding:0 230px; font-weight:bold">
               We provide our services to multiple industries and verticals. Here is a break-up of the industries that we offer serves
           </div>
           <div class="gallery row">

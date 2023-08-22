@@ -191,7 +191,6 @@ body {
 .section-industry .title {
     font-size: 40px;
     font-weight: bold;
-    color: #32b2c1;
 }
 
 .section-industry .gallery .short-text {
@@ -313,12 +312,12 @@ body {
 
 .section-google .send-btn {
     border: 2px solid #ff6600;
-    border-radius: 15px;
+    border-radius: 8px;
     outline: none;
     background-color: white;
     color: #ff6600;
     font-size: 20px;
-    width: 70%;
+    width: 100%;
 }
 
 .section-google input, .section-google textarea {
@@ -738,4 +737,14 @@ span.input-group-text {
     align-items: center;
     font-size: 25px;
     font-weight: 500;
+}
+.section_testmonials {
+    background-image: url('../../public/images/testmonials.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section_proud {
+    background-image: url('../../public/images/case.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }

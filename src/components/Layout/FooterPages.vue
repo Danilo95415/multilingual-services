@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="section-footer mt-4">
+        <div class="section-footer">
             <div class="container">
                 <div class="row">
                     <div class="col-md-4 p-4">
@@ -145,20 +145,20 @@
                             Being pioneer in Multiilingual Business Services, we provide complete solutions for foreign languages. Our teams provide multilingual solutions that excatly match your requirement. Our experts understand that quality is most important in foreign language support hence our native & multi-industry expert provide superior solution on all of your business requirements.
                         </div>
                     </div>
-                    <div class="col-md-6 row justify-content-center">
+                    <div class="col-md-6 row d-flex align-items-center flex-column justify-content-center">
                         <div class="col-md-8">
                             <!-- <div class="title">Contact</div> -->
                             <div class="mb-3">
                                 <label for="contact-name" class="form-label">Name</label>
-                                <input type="text" class="form-control" id="contact-name" placeholder="Name">
+                                <input type="text" class="form-control" id="contact-name" placeholder="Name" required>
                             </div>
                             <div class="mb-3">
                                 <label for="email" class="form-label">Email address</label>
-                                <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                                <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
                             </div>
                             <div class="mb-3">
                                 <label for="message" class="form-label">Message</label>
-                                <textarea class="form-control" id="message" rows="3"></textarea>
+                                <textarea class="form-control" id="message" rows="3" required></textarea>
                             </div>
                             <div class="mb-3 text-center">
                                 <button class="send-btn">Send</button>
