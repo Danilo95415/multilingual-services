@@ -424,42 +424,9 @@
             </div>
         </div>
     </div>
-    <div class="section_case_study mt-5">
-      <div class="container">
-        <p class="case_header my-5">CASE STUDY</p>
-        <div class="row">
-          <div class="case_content col-md-6 d-flex p-3">
-            <div class="d-flex justify-content-center align-items-streetch">
-              <img src="images/keyboard.png"/>
-            </div>
-            <div class="case_item">
-              <p class="mb-0" style="font-size: 25px; color :#32B2C1; font-weight:500">CASE STUDY</p>
-              <p class="mb-0 mt-3" style="font-size: 14px; ">
-                Browse Case Studies to find out how Multilingual Virtual Assistants
-                have helped our global customers to exceed their expectations. Browse
-                Case Studies to find out how our Multilingual Virtual Assistants have helped
-                our global customers to exceed their expectations.  Browse Case Studies to
-                find out how our Multilingual Virtual Assistants have helped our global
-                customers to exceed their expectations. Browse Case Studies to find out
-                how our Multilingual Virtual Assistants have helped our global customers to
-                exceed their expectations. Browse Case Studies to find out
-                how our Multilingual Virtual Assistants have helped our global customers to
-                exceed their expectations.Browse Case Studies to find out
-                how our Multilingual Virtual Assistants have helped our global customers to
-                exceed their expectations.
-              </p>
-              <div class="d-flex justify-content-end mt-4 mx-3" >
-                <button class="know_button">Know More</button>
-              </div>
-            </div>
-          </div>
-          <div class="case_image col-md-6">
-            <img src="images/case_study.png" style="max-width: 100%; min-height:100%" />
-          </div>
-        </div>
-      </div>
-    </div>
+    
     <div class="section_proud mt-5">
+      <p class="case_header my-5">CASE STUDY</p>
       <div class="container">
         <div class="row">
           <div class="col-md-1" />
