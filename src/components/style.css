@@ -705,3 +705,37 @@ span.input-group-text {
     background-color: #F2F2F4;
     padding: 10px 25px;
 }
+.price-board {
+    background-color: #131F35;
+    color: #fff;
+}
+.price-board-button button {
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    font-weight: bold;
+}
+.price-board-header {
+    background-color: #60A5E8!important;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.price-board-header p {
+    margin-bottom: 0;
+    font-size: 18px;
+    margin:0 15px;
+    
+}
+.price-board-header span{
+    font-size: 30px;
+    font-weight: bold;
+}
+.price-board-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 500;
+}

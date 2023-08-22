@@ -168,6 +168,17 @@
                 </div>
             </div>
         </div>
+        <div class="price-board price-board p-4" >
+            <div class="container ">
+                <div class="row ">
+                    <div class="col-md-3 price-board-header" ><p>Starts@</p><span>$8</span><p>/hour</p></div>
+                    <div class="col-md-6 price-board-content">Avail best-in-class services at affordable rates</div>
+                    <div class="col-md-3 price-board-button">
+                        <button>More pricing details</button>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="footer">
             <div class="container">
                 <div class="row">
