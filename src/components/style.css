@@ -334,6 +334,7 @@ body {
 .section-price .context {
     line-height: 200%;
     color: #FFFFFF;
+    font-size: 30px;
 }
 
 .section-footer {

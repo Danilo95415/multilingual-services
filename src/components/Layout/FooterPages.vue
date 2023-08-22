@@ -128,17 +128,7 @@
             <div class="bg-price py-5">
               <div class="container">
                 <div class="row">
-                  <div class="col-md-4">
-                    <div class="context">
-                      Being pioneer in Multiilingual Business Services, we provide complete solutions for foreign languages. Our teams provide multilingual solutions that excatly match your requirement. Our experts understand that quality is most important in foreign language support hence our native & multi-industry expert provide superior solution on all of your business requirements.
-                    </div>
-                  </div>
-                  <div class="col-md-4">
-                    <div class="context">
-                      Being pioneer in Multiilingual Business Services, we provide complete solutions for foreign languages. Our teams provide multilingual solutions that excatly match your requirement. Our experts understand that quality is most important in foreign language support hence our native & multi-industry expert provide superior solution on all of your business requirements.
-                    </div>
-                  </div>
-                  <div class="col-md-4">
+                  <div class="col-12">
                     <div class="context">
                       Being pioneer in Multiilingual Business Services, we provide complete solutions for foreign languages. Our teams provide multilingual solutions that excatly match your requirement. Our experts understand that quality is most important in foreign language support hence our native & multi-industry expert provide superior solution on all of your business requirements.
                     </div>
