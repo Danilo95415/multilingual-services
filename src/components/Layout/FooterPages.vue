@@ -125,7 +125,7 @@
         </div>
         <div class="section-price ">
             <div class="title text-center">P R I C E</div>
-            <div class="bg-price py-5">
+            <div class="bg-price py-4">
               <div class="container">
                 <div class="row">
                   <div class="col-12">
