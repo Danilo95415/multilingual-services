@@ -639,3 +639,26 @@ span.input-group-text {
     bottom: 0px;
     cursor: pointer;
 }
+
+@media(max-width:980px) {
+    .col-display {
+        width: 100%!important;
+    }
+}
+
+@media(max-width: 1200px) {
+    .serv-section-3 {
+        height: 188px;
+    }
+}
+@media(max-width: 1400px) {
+    .serv-section-3 {
+        height: 200px;
+    }
+    .serv-section-disc {
+        height: 86%;
+    }
+    .arrow {
+        bottom: 10px!important;
+    }
+}

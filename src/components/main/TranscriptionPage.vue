@@ -147,7 +147,7 @@
           <div class="section_3">
             <div class="container">
               <div class="row">
-                <div class="col-md-4 col-sm-12 col-12">
+                <div class="col-md-4 col-sm-12 col-12 col-display">
                   <div class="serv-section-3">
                     <div class="serv-section-3-icon">
                       <div class="glyph-icon">
@@ -168,7 +168,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 col-sm-12 col-12">
+                <div class="col-md-4 col-sm-12 col-12 col-display">
                   <div class="serv-section-3">
                     <div class="serv-section-3-icon">
                       <div class="glyph-icon flaticon-support">
@@ -189,7 +189,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 col-sm-12 col-12">
+                <div class="col-md-4 col-sm-12 col-12 col-display">
                   <div class="serv-section-3">
                     <div class="serv-section-3-icon">
                       <div class="glyph-icon flaticon-support">
@@ -210,7 +210,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 col-sm-12 col-12">
+                <div class="col-md-4 col-sm-12 col-12 col-display">
                   <div class="serv-section-3">
                     <div class="serv-section-3-icon">
                       <div class="glyph-icon flaticon-support">
@@ -231,7 +231,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 col-sm-12 col-12">
+                <div class="col-md-4 col-sm-12 col-12 col-display">
                   <div class="serv-section-3">
                     <div class="serv-section-3-icon">
                       <div class="glyph-icon flaticon-support">
@@ -253,7 +253,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 col-sm-12 col-12">
+                <div class="col-md-4 col-sm-12 col-12 col-display">
                   <div class="serv-section-3">
                     <div class="serv-section-3-icon">
                       <div class="glyph-icon flaticon-support">
@@ -275,7 +275,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 col-sm-12 col-12">
+                <div class="col-md-4 col-sm-12 col-12 col-display">
                   <div class="serv-section-3">
                     <div class="serv-section-3-icon">
                       <div class="glyph-icon flaticon-support">
@@ -296,7 +296,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 col-sm-12 col-12">
+                <div class="col-md-4 col-sm-12 col-12 col-display">
                   <div class="serv-section-3">
                     <div class="serv-section-3-icon">
                       <div class="glyph-icon flaticon-support">
@@ -318,7 +318,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 col-sm-12 col-12">
+                <div class="col-md-4 col-sm-12 col-12 col-display">
                   <div class="serv-section-3">
                     <div class="serv-section-3-icon">
                       <div class="glyph-icon flaticon-support">
@@ -341,7 +341,7 @@
                 </div>
               </div>
             </div>
-          </div> 
+          </div>
     </div>
 </template>
 
