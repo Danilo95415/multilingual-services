@@ -210,8 +210,8 @@
           <div class="col-md-4 col-sm-12 col-12">
             <div class="serv-section-3">
               <div class="serv-section-3-icon">
-                <div class="glyph-icon flaticon-support">
-                  <img src="images/icons/call.svg" style="width: 75%;"/>
+                <div class="glyph-icon">
+                  <img src="images/icons/call.svg" style="width: 75%;" class="logo-img" />
                 </div>
               </div>
               <div class="serv-section-disc">

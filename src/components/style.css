@@ -558,9 +558,12 @@ span.input-group-text {
 .serv-section-3:hover .serv-section-3-icon{
     background:#337ab7;
 }
-.serv-section-3:hover svg {
-    fill: white;
+.logo-img path{
+    color: #32B2C1;
 }
+/* .serv-section-3:hover .logo-img path {
+    fill: #fff;
+} */
 
 .serv-section-3 .glyph-icon {
     margin-top: 0;
@@ -617,7 +620,7 @@ span.input-group-text {
     border-radius: 35%;
     margin-top: auto;
     margin-bottom: 5px;
-    margin-left: 100px;
+    margin-left: 110px;
 }
 .serv-section-3 .glyph-icon:before {
     color: #337ab7;
