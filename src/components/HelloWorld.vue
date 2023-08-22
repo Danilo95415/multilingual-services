@@ -226,7 +226,7 @@
               </div>
               <div class="section-heading-line-left"></div>
               <div class="arrow">
-                <img src="images/arrow2.png" width="50%" height="15px">
+                <img src="images/arrow2.png" width="55px" height="55px">
               </div>
             </div>
           </div>
@@ -249,7 +249,7 @@
               </div>
               <div class="section-heading-line-left"></div>
               <div class="arrow">
-                <img src="images/arrow2.png" width="50%" height="15px">
+                <img src="images/arrow2.png" width="55px" height="55px">
               </div>
             </div>
           </div>
@@ -272,7 +272,7 @@
               </div>
               <div class="section-heading-line-left"></div>
               <div class="arrow">
-                <img src="images/arrow2.png" width="50%" height="15px">
+                <img src="images/arrow2.png" width="55px" height="55px">
               </div>
             </div>
           </div>
@@ -295,7 +295,7 @@
               </div>
               <div class="section-heading-line-left"></div>
               <div class="arrow">
-                <img src="images/arrow2.png" width="50%" height="15px">
+                <img src="images/arrow2.png" width="55px" height="55px">
               </div>
             </div>
           </div>
@@ -318,7 +318,7 @@
               </div>
               <div class="section-heading-line-left"></div>
               <div class="arrow">
-                <img src="images/arrow2.png" width="50%" height="15px">
+                <img src="images/arrow2.png" width="55px" height="55px">
               </div>
             </div>
           </div>
@@ -341,7 +341,7 @@
               </div>
               <div class="section-heading-line-left"></div>
               <div class="arrow">
-                <img src="images/arrow2.png" width="50%" height="15px">
+                <img src="images/arrow2.png" width="55px" height="55px">
               </div>
             </div>
           </div>
@@ -364,7 +364,7 @@
               </div>
               <div class="section-heading-line-left"></div>
               <div class="arrow">
-                <img src="images/arrow2.png" width="50%" height="15px">
+                <img src="images/arrow2.png" width="55px" height="55px">
               </div>
             </div>
           </div>
@@ -387,7 +387,7 @@
               </div>
               <div class="section-heading-line-left"></div>
               <div class="arrow">
-                <img src="images/arrow2.png" width="50%" height="15px">
+                <img src="images/arrow2.png" width="55px" height="55px">
               </div>
             </div>
           </div>
@@ -410,7 +410,7 @@
               </div>
               <div class="section-heading-line-left"></div>
               <div class="arrow">
-                <img src="images/arrow2.png" width="50%" height="15px">
+                <img src="images/arrow2.png" width="55px" height="55px">
               </div>
             </div>
           </div>

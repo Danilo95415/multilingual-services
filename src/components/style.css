@@ -543,16 +543,16 @@ span.input-group-text {
 
 .serv-section-3-icon  {
     position: absolute;
-    top: 0;
-    left: 0px;
+    top: 20%;
+    left: 10px;
     z-index: 0;
     content: " ";
     width: 100px;
     height: 100px;
     background: #f5f5f5;
-    border-bottom-right-radius: 60px;
-    transition: all 0.4s ease-in-out;
-    -webkit-transition: all 0.4s ease-in-out;
+    border-radius: 60px;
+    transition: all 0.7s ease-in-out;
+    -webkit-transition: all 0.7s ease-in-out;
 }
 
 .serv-section-3:hover .serv-section-3-icon{
@@ -569,10 +569,14 @@ span.input-group-text {
     position: absolute;
     max-width: 100px;
     z-index: 1;
-    top: 20px;
-    left: 20px;
+    top: 25px;
+    left: 25px;
 }
 .serv-section-desc {
+    position: relative;
+}
+
+.serv-section-3 {
     position: relative;
 }
 .serv-section-3 h4 {
@@ -582,7 +586,7 @@ span.input-group-text {
     line-height: 1.5;
     margin: 0px;
     font-family: Acme, sans-serif;
-    padding-left: 100px;
+    padding-left: 110px;
 
 }
 .serv-section-3 h5 {
@@ -591,7 +595,7 @@ span.input-group-text {
     font-weight: 400;
     line-height: 1;
     margin-top: 10px;
-    padding-left: 100px;
+    padding-left: 110px;
 }
 .serv-section-3 p {
     margin: 10px 0;
@@ -619,11 +623,10 @@ span.input-group-text {
     color: #337ab7;
     font-size: 50px;
 }
-/* .flaticon-support:before {
-    content: "\f102";
-} */
 
 .serv-section-3 .arrow {
-    padding-right: 20px;
-    text-align: right;
+    position: absolute;
+    right: 10px;
+    bottom: 0px;
+    cursor: pointer;
 }
