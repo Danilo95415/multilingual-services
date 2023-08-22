@@ -7,7 +7,12 @@ body {
     text-decoration: none;
 }
 
-
+.list_item a {
+    text-decoration: none;
+    font-family: Roboto, sans-serif;
+    color: #fff;
+    
+}
 .topbar {
     background-color: #43B8C5;
 }
@@ -48,14 +53,15 @@ body {
     font-weight: 600;
     padding: 8px 18px 8px;
     border-right: 1px solid #fff;
+    cursor: pointer;
+}
+.list_item:hover {
+    background-color: #FF6600;
 }
 .list_item span {
     display: block;
     line-height: 14px;
     font-size: 13px;
-}
-.list_item:first-of-type {
-    background-color: #FF6600;
 }
 
 .serarch_button {

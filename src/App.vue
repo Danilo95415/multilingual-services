@@ -1,20 +1,23 @@
 <template>
   <div>
-    <HelloWorld />
+    <HeaderPage />
+    <router-view></router-view>
     <FooterPages />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-import FooterPages from './components/FooterPages.vue'
+
+import HeaderPage from '@/components/Layout/HeaderPage'
+import FooterPages from '@/components/Layout/FooterPages'
 
 export default {
-  name: 'App',
-  components: {
-    HelloWorld,
+  components : {
+    HeaderPage,
     FooterPages
-  }
+  },
+  name: 'App',
+  
 }
 </script>
 
