@@ -459,6 +459,59 @@
         </div>
       </div>
     </div>
+    <div class="section_proud mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-1" />
+          <div class="col-md-4 col-sm-12">
+            <div class="case_content_header">Proud of our work, but we're even more proud of the results.</div>
+          </div>
+          <div class="col-md-7 col-sm-12 mt-3">
+           <div class="row" >
+            <div class="col-md-7 p-0">
+              <div class="case_content_items">Read our case studies to find out how we have helped our clients succeed.</div>
+             </div>
+             <div class="col-md-3 ">
+              <button class="case_content_button">ALL CASES</button>
+             </div>
+             <div class="col-md-2" />
+           </div>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-md-1" />
+          <div class="col-md-4 col-sm-12">
+            <img src="images/proud_3.png" class="h-100" style="max-width: 100%;"  />
+          </div>
+          <div class="col-md-7 col-sm-12 ">
+            <div class="row">  
+              <div class="col-md-6 col-sm-12 case_content p-0">
+                <div class="d-flex justify-content-between">
+                  <div class="case_item_content">Workspace cloud business</div>
+                  <div class="case_item_img"><img src="images/proud_4.png" alt=""></div>
+                </div>
+                <div class="case_item_content_item">As a new company stemming from an established accounting firm</div>
+              </div>
+              <div class="col-md-6 col-sm-12 p-0">
+                <img src="images/proud_1.png" />
+              </div>
+            </div>
+            <div class="row mt-4">
+              <div class="col-md-6 col-sm-12 case_content p-0">
+                <div class="d-flex justify-content-between">
+                  <div class="case_item_content">Managed backup services</div>
+                  <div class="case_item_img"><img src="images/proud_5.png" alt=""></div>
+                </div>
+                <div  class="case_item_content_item">With an upgraded on-site server and new internet circuites</div>
+              </div>
+              <div class="col-md-6 col-sm-12 p-0" >
+                <img src="images/proud_2.png" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="section_testmonials mt-5">
       <div class="container">
         <div class="row">
@@ -533,6 +586,7 @@
         </div>
       </div>
     </div>
+    
     <FooterPages />
   </div>
 </template>
