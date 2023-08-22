@@ -165,7 +165,7 @@ body {
 .testing {
     font-size: 40px;
     font-weight: bold;
-    color: #32b2c1;
+    /* color: #32b2c1; */
     font-family: Roboto,sans-serif;
     text-align: center;
     padding: 30px 0 0 0;
@@ -180,7 +180,8 @@ body {
 .section_language .title{
     font-size: 40px;
     font-weight: bold;
-    color: #32b2c1;
+    /* color: #32b2c1; */
+    text-align: center;
 }
 
 /* INDUSTRY */
@@ -293,7 +294,7 @@ body {
 .section-price .title {
     font-size: 40px;
     font-weight: bold;
-    color: #32b2c1;
+    /* color: #32b2c1; */
     margin-bottom: 20px;
 }
 

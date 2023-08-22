@@ -424,7 +424,7 @@
         </div>
     </div>
     
-    <div class="section_proud mt-5">
+    <div class="section_proud mt-5 p-3">
       <div class="container">
         <div class="row">
           <div class="col-md-1" />
@@ -477,7 +477,7 @@
         </div>
       </div>
     </div>
-    <div class="section_testmonials">
+    <div class="section_testmonials p-2">
       <div class="container">
         <div class="row">
           <p class="testing">TESTMONIALS</p>
