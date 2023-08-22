@@ -485,7 +485,7 @@
           </div>
           <div class="col-md-7 col-sm-12 ">
             <div class="row">  
-              <div class="col-md-6 col-sm-12 case_content p-0">
+              <div class="col-md-6 col-sm-12 case_contents p-0">
                 <div class="d-flex justify-content-between">
                   <div class="case_item_content">Workspace cloud business</div>
                   <div class="case_item_img"><img src="images/proud_4.png" alt=""></div>
@@ -497,7 +497,7 @@
               </div>
             </div>
             <div class="row mt-4">
-              <div class="col-md-6 col-sm-12 case_content p-0">
+              <div class="col-md-6 col-sm-12 case_contents p-0">
                 <div class="d-flex justify-content-between">
                   <div class="case_item_content">Managed backup services</div>
                   <div class="case_item_img"><img src="images/proud_5.png" alt=""></div>
