@@ -412,8 +412,8 @@
               We provide our services to multiple industries and verticals. Here is a break-up of the industries that we offer serves
           </div>
           <div class="gallery row">
-              <div class=" col-md-4 col-sm-6 industry my-1" v-for="(item, index) in data" :key="index">
-                  <div class="col-md-10 border-special">
+              <div class=" col-md-4 col-sm-6 industry " v-for="(item, index) in data" :key="index">
+                  <div class="col-md-10 border-special pb-0">
                       <span class="icon m-2">
                           <img :src="item.url" style="width: 40px;height:40px"/>
                       </span>
