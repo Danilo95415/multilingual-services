@@ -121,7 +121,7 @@
         </div>
       </div>
     </div>
-    <div class="section_language mt-5 mb-5">
+    <div class="section_language mt-5">
       <div class="container">
         <div class="row">
           <div class="col-md-8">
@@ -343,7 +343,6 @@
     </div> 
     <div class="section-choose mt-5">
       <div class="container">
-          <div class="title text-center my-5">WHY CHOOSE US</div>
           <div class="row align-items-center pos-relative">
               <div class="col-md-6">
                   <div class="content px-3">
@@ -408,7 +407,7 @@
     </div>
     <div class="section-industry mt-5">
       <div class="container">
-          <div class="title my-3">INDUSTRIES WE SERVE TO</div>
+          <div class="title my-3 text-center">INDUSTRIES WE SERVE TO</div>
           <div class="content mt-3 mb-4" style="font-size:22px">
               We provide our services to multiple industries and verticals. Here is a break-up of the industries that we offer serves
           </div>
@@ -426,7 +425,6 @@
     </div>
     
     <div class="section_proud mt-5">
-      <p class="case_header my-5">CASE STUDY</p>
       <div class="container">
         <div class="row">
           <div class="col-md-1" />
@@ -479,14 +477,14 @@
         </div>
       </div>
     </div>
-    <div class="section_testmonials mt-5">
+    <div class="section_testmonials">
       <div class="container">
         <div class="row">
           <p class="testing">TESTMONIALS</p>
         </div>
         <div>
-          <Carousel :perPage="3">
-            <Slide class="col-md-4 slider_item" >
+          <Carousel :perPage="3" :paginationPosition="bottom-overlay">
+            <Slide class="col-md-4 slider_item pt-0" >
               <div class="border-item">
                 <div class="text-center p-3">
                   <img src="images/stars.svg" v-for="index in 5" :key='index'/>
@@ -501,7 +499,7 @@
                 </div>
               </div>
             </Slide> 
-            <Slide class="col-md-4 slider_item" >
+            <Slide class="col-md-4 slider_item pt-0"  >
               <div class="border-item">
               <div class="text-center p-3">
                 <img src="images/stars.svg" v-for="index in 5" :key='index'/>
@@ -517,7 +515,7 @@
               </div>
               </div>
             </Slide>
-            <Slide class="col-md-4 slider_item" >
+            <Slide class="col-md-4 slider_item pt-0" >
               <div class="border-item">
               <div class="text-center p-3">
                 <img src="images/stars.svg" v-for="index in 5" :key='index'/>
@@ -533,7 +531,7 @@
               </div>
 
             </Slide>
-            <Slide class="col-md-4 slider_item" >
+            <Slide class="col-md-4 slider_item pt-0" >
               <div class="border-item">
               <div class="text-center p-3">
                 <img src="images/stars.svg" v-for="index in 5" :key='index'/>

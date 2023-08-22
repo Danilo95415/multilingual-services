@@ -123,8 +123,8 @@
                 </div>
             </div>
         </div>
-        <div class="section-price py-4 mt-5">
-            <div class="title text-center mb-5">P R I C E</div>
+        <div class="section-price ">
+            <div class="title text-center">P R I C E</div>
             <div class="bg-price py-5">
               <div class="container">
                 <div class="row">
