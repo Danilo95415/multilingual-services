@@ -343,8 +343,8 @@
     </div> 
     <div class="section-choose mt-5">
       <div class="container">
-          <div class="row align-items-center pos-relative">
-              <div class="col-md-6">
+          <div class="row  pos-relative">   
+              <div class="col-md-6" style=" background-color:#CCCCCC">
                   <div class="content px-3">
                       Browse Case Studies to find out how our Multiilingual Virtual Assistants have helped our global customers to exceed their expectations. Browse Case Studies to find out how our Multilingual Virtual Assistants have helped our global customers to exceed their expectations. Browse Case Studies to find out how our Multilingual Virtual Assistants have helped our global customers to exceed their expectations.
                   </div>

@@ -147,10 +147,10 @@
               </div>
             </div>
         </div>
-        <div class="section-google">
-            <div class="container">
+        <div class="section-google" style=" background-color:#CCCCCC">
+            <div class="container" >
                 <div class="row">
-                    <div class="col-md-6 d-flex align-items-center">
+                    <div class="col-md-6 d-flex align-items-center" >
                         <div class="content">
                             Being pioneer in Multiilingual Business Services, we provide complete solutions for foreign languages. Our teams provide multilingual solutions that excatly match your requirement. Our experts understand that quality is most important in foreign language support hence our native & multi-industry expert provide superior solution on all of your business requirements.
                         </div>

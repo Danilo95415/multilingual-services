@@ -236,7 +236,8 @@ body {
 }
 
 .section-choose .content {
-    font-size: 16px;
+    font-size: 24px;
+
 }
 
 .section-choose .bg-color-orange {
@@ -288,8 +289,8 @@ body {
 
 .section-price .bg-price{
     background-image: url('../../public/images/bg-price.jpg') ;
-    background-repeat: no-repeat;
-    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-size: contain;
 
 }
 
