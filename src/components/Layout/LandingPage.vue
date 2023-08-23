@@ -89,7 +89,7 @@
             <div class="col-md-10 mx-auto">
               <div class="box-shadow">
                 <div class="py-3 bg-opacity">
-                  <p class='text-center' style="margin-bottom: 0; font-size:20px;font-weight:bold; color:#fff; font-family: Roboto, sans-serif;">Request a FREE QUOTE</p>
+                  <p class='text-center' style="margin-bottom: 0; font-size:20px;font-weight:bold; color:#fff; font-family: Roboto, sans-serif;">Request a <span class="free">FREE QUOTE</span></p>
                   <p class='text-center' style="margin-bottom: 0; font-size:16px; color:#fff">Partner with Multilingual Experts!</p>
                   <p class='text-center' style="margin-bottom: 0;font-size:14px; color:#fff">Save your cost within 12 Hours.</p>
                 </div>
@@ -569,7 +569,6 @@
         </div>
       </div>
     </div>
-    
     <FooterPages />
   </div>
 </template>
