@@ -3,9 +3,9 @@
         <div class="section_1">
             <div class="container">
               <div class="row">
-                <div class="d-flex justify-content-between align-items-center">
+                <div class="header_control">
                   <div class="logo">
-                    <img src="https://www.piemultilingual.com/wp-content/themes/piemultilingual/images/piemulti.svg" height="60px"/>
+                    <img src="https://www.piemultilingual.com/wp-content/themes/piemultilingual/images/piemulti.svg"/>
                   </div>
                   <div class="nav_bar d-flex flex-column">
                       <ul class="all_navbar d-flex ul_list">
@@ -16,7 +16,7 @@
                         <li class="list_item_navbar">Contact Us</li>
                       </ul>          
           
-                    <div class="d-flex mt-2 justify-content-end">
+                    <div class="search_control mt-2 ">
                       <input
                           type="text"
                           placeholder="Search.."
@@ -38,11 +38,12 @@
                         </button>
                     </div>
                   </div>
+                  
                 </div>
               </div>
             </div>
             <div class="d-flex topbar justify-content-center mt-2">
-                  <ul class="d-flex ul_list ">
+                  <ul class=" ul_list ">
                     <div class="topbar_logo d-flex ">
                       <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-house-check" viewBox="0 0 16 16">
                         <path d="M7.293 1.5a1 1 0 0 1 1.414 0L11 3.793V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v3.293l2.354 2.353a.5.5 0 0 1-.708.708L8 2.207l-5 5V13.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 1 0 1h-4A1.5 1.5 0 0 1 2 13.5V8.207l-.646.647a.5.5 0 1 1-.708-.708L7.293 1.5Z"/>

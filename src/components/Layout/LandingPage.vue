@@ -55,9 +55,9 @@
             </div>
             <div class="ahead-icons row mt-4">
               <div class="title text-white my-3">TRUST BY:</div>
-              <div class="d-flex">
+              <div class="d-flex flex-wrap">
 
-                <div class="m-3">
+                <div class="m-3 ">
                   <div class="ahead-item d-flex align-items-center">
                     <div class="icon"><img src="images/icon1.png" height="50px"></div>
                     <!-- <div class="m-1 word text-white">ARIBA</div> -->
@@ -478,7 +478,7 @@
                 <div class="case_item_content_item">As a new company stemming from an established accounting firm</div>
               </div>
               <div class="col-md-6 col-sm-12 p-0">
-                <img src="images/proud_1.png" style="max-width:100%"/>
+                <img src="images/proud_1.png" />
               </div>
             </div>
             <div class="row mt-4">

@@ -6,7 +6,14 @@ body {
 .serv-section-disc h4 a {
     text-decoration: none;
 }
-
+.header_control {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img {
+    height: 60px;
+}
 .list_item a {
     text-decoration: none;
     font-family: Roboto, sans-serif;
@@ -23,6 +30,7 @@ body {
     list-style-type: none;
     margin-bottom: 0;
     color: white;
+    display: flex;
 }
 
 .all_navbar {
@@ -683,6 +691,7 @@ span.input-group-text {
     font-weight:bold;
     font-family: Roboto, sans-serif;
 }
+
 @media(max-width:990px) {
     .col-display {
         width: 100%!important;
@@ -699,6 +708,10 @@ span.input-group-text {
     .section_proud img {
         width: 100%;
         height: auto;
+    }
+    .ahead-icons {
+        display: flex;
+        flex-wrap: wrap;
     }
 }
 
@@ -740,12 +753,81 @@ span.input-group-text {
         font-size: 20px;
         font-family: Roboto, sans-serif;
     }
+    
 }
 @media(max-width:980px) {
     .section-choose .content {
-        font-size: 18px;
+        font-size: 20px;
         font-family: Roboto, sans-serif;
     }
+}
+@media(max-width:1340px) {
+    .list_item {
+        padding: 8px ;
+    }
+    .list_item span {
+        font-size: 11px;
+    }
+}
+@media(max-width: 1100px) {
+    .list_item {
+        font-size: 11px;
+        padding: 5px;
+    }
+}
+@media(max-width: 980px) {
+    .list_item {
+        font-size: 10px;
+        padding: 5px;
+    }
+    .list_item span {
+        font-size: 10px;
+    }
+}
+@media (max-width:768px ) {
+    .ul_list {
+        display: none!important;
+    }  
+    .header_control {
+        flex-direction: column;
+    }
+    .header_control .logo img {
+        width: 100%;
+        height: 111px;
+    }
+    .nav_bar .search_control {
+        display: none;
+    }
+    .all_navbar {
+        border-radius: 4px;
+        margin-top: 10px;
+    }
+    .proud_all {
+        height: 450px;
+        margin-bottom: 25px;
+    }
+    .case_content_header {
+        text-align: center;
+    }
+    .case_content_items {
+        padding: 0 35px!important;
+        text-align: center;
+    }
+    .case_content_button {
+        width: 100%;
+    }
+    .price-board-button button {
+        width: 100%;
+    }
+    .inbox {
+        width: 100%;
+    }
+    
+}
+
+.search_control {
+    display: flex;
+    justify-content: end;
 }
 /***case***/
 .case_content_header {
@@ -891,3 +973,5 @@ span.input-group-text {
     margin-bottom: 0;
     line-height: 1;
 }
+
+
