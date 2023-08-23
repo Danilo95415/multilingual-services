@@ -5,15 +5,32 @@
               <div class="row">
                 <div class="header_control">
                   <div class="logo">
-                    <img src="https://www.piemultilingual.com/wp-content/themes/piemultilingual/images/piemulti.svg"/>
+                    <router-link to="/"><img src="images/logo.png"/></router-link>
                   </div>
                   <div class="nav_bar d-flex flex-column">
                       <ul class="all_navbar d-flex ul_list">
-                        <li class="list_item_navbar"><img src="images/navbar_logo.png" style="margin-left: 6px;" /> ALL SERVICES</li>
-                        <li class="list_item_navbar">Industries We Serve</li>
-                        <li class="list_item_navbar">Languages</li>
-                        <li class="list_item_navbar">About Us</li>
-                        <li class="list_item_navbar">Contact Us</li>
+                        <li class="list_item_navbar"><img src="images/navbar_logo.png" style="margin-left: 6px;" />       
+                            <router-link to="/https://www.piemultilingual.com/multilingual-outsourcing-company-services/"> ALL SERVICES</router-link>
+                          </li>
+                        <li class="list_item_navbar">
+                          <router-link to="/global-outsourcing-industry-solutions/business-process-outsourcing/">Industries We Serve</router-link>
+                        </li>
+                        <li class="list_item_navbar">
+                          Languages
+                          <ul>
+                            <li><router-link to="/spanish-language-new/spanish-business-services/">Spanish</router-link></li>
+                            <li><router-link to="/french-language/french-business-services/">French</router-link></li>
+                            <li><router-link to="/deutsch/">German</router-link></li>
+                          </ul>
+                        </li>
+                        <li class="list_item_navbar">
+                          <router-link to="/about-multilingual-outsourcing-company/" >About Us</router-link>
+                        </li>
+                        <li class="list_item_navbar">
+                          <router-link to="/multilingual-outsourcing-contact-us/" >
+                            Contact Us
+                          </router-link>
+                        </li>
                       </ul>          
           
                     <div class="search_control mt-2 ">

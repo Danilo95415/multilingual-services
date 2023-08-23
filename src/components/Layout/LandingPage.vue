@@ -57,25 +57,25 @@
               <div class="title text-white my-3">TRUST BY:</div>
               <div class="d-flex flex-wrap">
 
-                <div class="m-3 ">
+                <div class="m-3 icon_item">
                   <div class="ahead-item d-flex align-items-center">
                     <div class="icon"><img src="images/icon1.png" height="50px"></div>
                     <!-- <div class="m-1 word text-white">ARIBA</div> -->
                   </div>
                 </div>
-                <div class="m-3">
+                <div class="m-3 icon_item">
                   <div class="ahead-item d-flex align-items-center">
                     <div class="icon"><img src="images/icon2.png" height="50px"></div>
                     <!-- <div class="m-1 word text-white">Discovery</div> -->
                   </div>
                 </div>
-                <div class="m-3">
+                <div class="m-3 icon_item">
                   <div class="ahead-item d-flex align-items-center">
                     <div class="icon"><img src="images/icon3.png" height="50px"></div>
                     <div class="m-1 word text-white"></div>
                   </div>
                 </div>
-                <div class="m-3">
+                <div class="m-3 icon_item">
                   <div class="ahead-item d-flex align-items-center">
                     <div class="icon"><img src="images/icon4.png" height="50px"></div>
                     <!-- <div class="m-1 word text-white">logoipsum</div> -->
@@ -129,10 +129,10 @@
             <p class="title">OUTSOURCE FOREIGN LANGUAGE SERVICES</p>
             <p>PlE Multilingual is the ultimate answer to meet your business service demand. Our fast and cost-effective processes make us a top choice among the clients irrespective of geographical boundaries. We follow up-to-date computing environment and methodology, 
               which smoothly converts your project concepts into reality. Whether it is language translation, language transcription or any other business service, we ensure efficiency, professionalism and quality in more than 150+ languages. Most importantly, we understand that you deserve the best and thus ensure that your project undergo with multi quality stage to deliver
-               <span class="color-special bold">excellent quality</span>.
+               <router-link to="/market-research-services/supply-chain-intelligence/"><span class="color-special bold">excellent quality</span></router-link>.
             </p>
             <p>
-              <span class="color-special bold">Partner</span>&nbsp;with Multilingual Business Service Company to meet your business requirements with foreign language expertise.
+              <router-link to="/multilingual-outsourcing-contact-us/"><span class="color-special bold">Partner</span></router-link>&nbsp;with Multilingual Business Service Company to meet your business requirements with foreign language expertise.
               Partnering with Foreign Language Service company will not just cut your cost but will also helop on a variety of assignment where foreign language expertise is required.
               Foreign Language Service company will not just cut your cost but will also help on a variety of assignment where foreign language expertise is required.
               Foreign Language outsourcing company will help to open your business in new geography. Add foreign language services in your expertise and Leverage your business with us.
@@ -156,7 +156,7 @@
               </div>
               <div class="serv-section-disc">
                 <h4>
-                  <a href="">MULTINGUAL CALL CENTER</a>
+                  <a href="/multilingual-call-center/inbound-call-center-services/">MULTINGUAL CALL CENTER</a>
                 </h4>
                 <h5>
                   <p>Get your business processes transform with proficient call center support.</p>
@@ -164,7 +164,7 @@
               </div>
               <div class="section-heading-line-left"></div>
               <div class="arrow">
-                <img src="images/arrow2.png" width="55px" height="55px">
+                <img src=" images/arrow2.png" width="55px" height="55px">
               </div>
             </div>
           </div>
@@ -177,7 +177,7 @@
               </div>
               <div class="serv-section-disc">
                 <h4>
-                  <a href="">MARKET RESEARCH</a>
+                  <a href="/outsource-multilingual-business-research/">MARKET RESEARCH</a>
                 </h4>
                 <h5>
                   <p>Expand your business to international markets with deep subject matter experts.</p>
@@ -198,7 +198,7 @@
               </div>
               <div class="serv-section-disc">
                 <h4>
-                  <a href="">AUDIO TRANSCRIPTION</a>
+                  <a href="/outsource-audio-transcription-services/">AUDIO TRANSCRIPTION</a>
                 </h4>
                 <h5>
                   <p>Get your audios transcribed with 100% accuracy by our native transcribers.</p>
@@ -219,7 +219,7 @@
               </div>
               <div class="serv-section-disc">
                 <h4>
-                  <a href="">FOREIGN LANGUAGE SERVICES</a>
+                  <a href="/outsource-multilingual-translation-services/">FOREIGN LANGUAGE SERVICES</a>
                 </h4>
                 <h5>
                   <p>Get foreign language expert support to run your business worldwide efficiently.</p>
@@ -241,7 +241,7 @@
               </div>
               <div class="serv-section-disc">
                 <h4>
-                  <a href="">CONTENT WRITING</a>
+                  <a href="/outsourcing-content-writing-services/">CONTENT WRITING</a>
                 </h4>
                 <h5>
                   <p>Get 100% plagiarism-free and unique content for your business.</p>
@@ -263,7 +263,7 @@
               </div>
               <div class="serv-section-disc">
                 <h4>
-                  <a href="">VIDEO EDITING SERVICES</a>
+                  <a href="/creative-services/video-editing-services/">VIDEO EDITING SERVICES</a>
                 </h4>
                 <h5>
                   <p>Make your videos more unique and impressive to attract more audience.</p>
@@ -278,13 +278,13 @@
           <div class="col-md-4 col-sm-12 col-12 col-display">
             <div class="serv-section-3">
               <div class="serv-section-3-icon">
-                <div class="glyph-icon flaticon-support">
-                  <img src="images/icons/call.svg" style="width: 75%;"/>
+                <div class="glyph-icon">
+                  <img src="images/icons/call.svg" style="width: 75%;" class="logo-img" />
                 </div>
               </div>
               <div class="serv-section-disc">
                 <h4>
-                  <a href="">MULTINGUAL CALL CENTER</a>
+                  <a href="/multilingual-call-center/inbound-call-center-services/">MULTINGUAL CALL CENTER</a>
                 </h4>
                 <h5>
                   <p>Get your business processes transform with proficient call center support.</p>
@@ -301,12 +301,11 @@
               <div class="serv-section-3-icon">
                 <div class="glyph-icon flaticon-support">
                   <img src="images/icons/market.svg" style="width: 75%;" />
-
                 </div>
               </div>
               <div class="serv-section-disc">
                 <h4>
-                  <a href="">MARKET RESEARCH</a>
+                  <a href="/outsource-multilingual-business-research/">MARKET RESEARCH</a>
                 </h4>
                 <h5>
                   <p>Expand your business to international markets with deep subject matter experts.</p>
@@ -327,7 +326,7 @@
               </div>
               <div class="serv-section-disc">
                 <h4>
-                  <a href="">AUDIO TRANSCRIPTION</a>
+                  <a href="/outsource-audio-transcription-services/">AUDIO TRANSCRIPTION</a>
                 </h4>
                 <h5>
                   <p>Get your audios transcribed with 100% accuracy by our native transcribers.</p>
@@ -457,11 +456,11 @@
         </div>
         <div class="row mt-3">
           <div class="col-md-1" />
-          <div class="col-md-4 col-sm-12 proud_all" >
-            <div class="proud_header">
+          <div class="col-md-4 col-sm-12 proud_all px-0" >
+            <div class="proud_header px-3">
               Cybersecurity and cloud
             </div>
-            <div class="proud_content">
+            <div class="proud_content px-3">
               Migrated them to the Cloud, and provided Office<br />
               365 management.
             </div>

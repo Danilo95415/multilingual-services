@@ -3,6 +3,9 @@ body {
     /* font-weight: 500 !important; */
     font-family: Roboto,sans-serif !important;
 }
+a {
+    text-decoration: none!important;
+}
 .serv-section-disc h4 a {
     text-decoration: none;
 }
@@ -33,6 +36,44 @@ body {
     display: flex;
 }
 
+.ul_list li:hover ul {
+    display: block;
+}
+.ul_list li ul {
+    padding: 0;
+    display: none;
+    position: absolute;
+    top: 20px;
+    width: 100px;
+    background: #ff6600;
+    z-index: 999;
+    box-shadow: 2px 3px 5px #000;
+    left: 0px;
+}
+.ul_list li li {
+    display: block;
+    text-align: center;
+    border: none;
+}
+.ul_list li {
+    display: inline-block;
+    text-transform: uppercase;
+    border-right: 1px solid #fff;
+    color: #f5f5f5;
+    position: relative;
+}
+.ul_list li li a {
+    display: block;
+}
+.ul_list li a {
+    color: #fcfcff;
+    padding: 6px;
+    font-size: 13px;
+    text-transform: capitalize;
+    border-radius: 3px;
+    FONT-WEIGHT: bold;
+    text-decoration: none;
+}
 .all_navbar {
     border-bottom-left-radius: 46px;
     background-color: #FF6600;
@@ -43,7 +84,7 @@ body {
 .list_item_navbar {
     font-family: Roboto, sans-serif;
     font-size: 13px;
-    font-weight: bold;
+    font-weight: 600;
     border-right: 1px solid #fff;
     padding: 6px;
     color: #fff;
@@ -107,7 +148,7 @@ body {
 .get_ahead {
     font-family: Roboto, sans-serif;
     font-size: 28px;
-    font-weight: bold;
+    font-weight: 600;
     line-height: 32px;
     letter-spacing: 1px;
     text-align: left;
@@ -182,7 +223,7 @@ body {
 }
 .testing {
     font-size: 40px;
-    font-weight: bold;
+    font-weight: 600;
     /* color: #32b2c1; */
     font-family: Roboto,sans-serif;
     text-align: center;
@@ -192,12 +233,11 @@ body {
     color: #ff6600;
     margin-bottom: 0;
     font-family: Roboto,sans-serif;
-    /* font-weight: 500; */
 }
 
 .section_language .title{
     font-size: 40px;
-    font-weight: bold;
+    font-weight: 600;
     font-family: Roboto, sans-serif;
     text-align: center;
     line-height: 1.1;
@@ -210,7 +250,7 @@ body {
 
 .section-industry .title {
     font-size: 40px;
-    font-weight: bold;
+    font-weight: 600;
     font-family: Roboto, sans-serif;
     line-height: 1.1;
 }
@@ -230,7 +270,7 @@ body {
 /*case-study*/
 .case_header {
     font-size: 40px;
-    font-weight: bold;
+    font-weight: 600;
     color: #32b2c1;
     text-align:center;
     font-family: Roboto, sans-serif;
@@ -247,14 +287,14 @@ body {
     background-color: white;
     color: #FF6600;
     border-radius: 6px;
-    font-weight: bold;
+    font-weight: 600;
     font-family: Roboto, sans-serif;
 }
 
 /*choose us*/
 .section-choose .title {
     font-size: 40px;
-    font-weight: bold;
+    font-weight: 600;
     color: #32b2c1;
     font-family: Roboto, sans-serif;
 }
@@ -291,7 +331,7 @@ body {
     background-color: white;
     color: #FF6600;
     border-radius: 6px;
-    font-weight: bold;
+    font-weight: 600;
 }
 /* Footer */
 .section-language .support .support-icon {
@@ -304,7 +344,6 @@ body {
 
 .section-language .support .title {
     width: 150px;
-    /* font-weight: 600; */
 }
 
 .section-language .support .support-line {
@@ -319,7 +358,7 @@ body {
 
 .section-price .title {
     font-size: 40px;
-    font-weight: bold;
+    font-weight: 600;
     font-family: Roboto, sans-serif;
     margin-bottom: 20px;
 }
@@ -333,7 +372,7 @@ body {
 .seotion-google .title {
     font-size: 30px;
     color: #32b2c1;
-    font-weight: bold;
+    font-weight: 600;
     text-align: center;
     margin: 30px auto;
     font-family: Roboto, sans-serif;
@@ -390,7 +429,7 @@ body {
 }
 
 .bold {
-    font-weight: bold;
+    font-weight: 600;
 }
 
 .color-special {
@@ -531,7 +570,7 @@ body {
     font-size: 18px;
     color: white;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 600;
     line-height: 90%;
     font-family: Roboto, sans-serif;
 }
@@ -635,7 +674,7 @@ span.input-group-text {
 .serv-section-3 h4 {
     color: #333;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 1.5;
     margin: 0px;
     font-family: Roboto, sans-serif;
@@ -645,7 +684,7 @@ span.input-group-text {
 .serv-section-3 h5 {
     color: #333;
     font-size: 17px;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 1;
     margin-top: 10px;
     padding-left: 110px;
@@ -688,7 +727,7 @@ span.input-group-text {
 .section-industry .content {
     font-size:22px; 
     padding:0 230px; 
-    font-weight:bold;
+    font-weight:600;
     font-family: Roboto, sans-serif;
 }
 
@@ -805,6 +844,7 @@ span.input-group-text {
     .proud_all {
         height: 450px;
         margin-bottom: 25px;
+        
     }
     .case_content_header {
         text-align: center;
@@ -831,7 +871,7 @@ span.input-group-text {
 }
 /***case***/
 .case_content_header {
-    font-weight: 800;
+    font-weight: 600;
     font-size: 20px;
     padding: 0 30px 0 0;
     color: #337ab7;
@@ -847,19 +887,19 @@ span.input-group-text {
 }
 
 .case_item_content {
-    font-weight: bold;
+    font-weight: 600;
     font-size: 20px;
     padding: 0 55px 0 30px;
     font-family: Roboto, sans-serif;
 }
 .case_item_content_item {
-    font-weight: 300;
+    font-weight: 600;
     font-size: 15px;
     padding: 0 30px;
     font-family: Roboto, sans-serif;
 }
 .case_content_items {
-    font-weight: 300;
+    font-weight: 600;
     font-size: 15px;
     padding: 0 100px 0 0;
     font-family: Roboto, sans-serif;
@@ -880,7 +920,7 @@ span.input-group-text {
     padding: 10px;
     border: 1px solid #fff;
     border-radius: 4px;
-    font-weight: bold;
+    font-weight: 600;
 }
 .price-board-header {
     background-color: #60A5E8!important;
@@ -897,7 +937,7 @@ span.input-group-text {
 }
 .price-board-header span{
     font-size: 30px;
-    font-weight: bold;
+    font-weight: 600;
     font-family: Roboto, sans-serif;
 }
 .price-board-content {
@@ -905,7 +945,7 @@ span.input-group-text {
     justify-content: center;
     align-items: center;
     font-size: 25px;
-    font-weight: 500;
+    font-weight: 300;
     font-family: Roboto, sans-serif;
 }
 .section_testmonials {
@@ -926,7 +966,7 @@ span.input-group-text {
 }
 .success_stories {
     font-family: Roboto, sans-serif!important;
-    font-weight: bold;
+    font-weight: 600;
     font-size: 15px;
     color: #49BA48;
 }
@@ -935,7 +975,7 @@ span.input-group-text {
 }
 .proud_header {
     font-family: Roboto, sans-serif!important;
-    font-weight: bold;
+    font-weight: 600;
     font-size: 23px;
     color: #fff;
     margin-top: 70px;
@@ -943,13 +983,13 @@ span.input-group-text {
 }
 .proud_content {
     font-family: Roboto, sans-serif!important;
-    font-weight: bold;
+    font-weight: 600;
     font-size: 13px;
     color: #fff;
 
 }
 .proud_button_group {
-    background-color: #54935C;
+    background-color: #49BA48;
     border-radius: 8px;
     padding: 10px 10px;
     
@@ -962,6 +1002,8 @@ span.input-group-text {
     font-family: Roboto, sans-serif;
     cursor: pointer;
 }
+
+
 .shadow:hover {
     box-shadow: 0 0 8px #191919;
     background: #fff;

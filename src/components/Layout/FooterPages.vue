@@ -3,7 +3,7 @@
         <div class="section-footer">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4 p-4 shadow">
+                    <div class="col-md-4 p-4 shadow" v-for="index in 3" :key="index">
                         <div class="title color-special-air bold my-2">
                             MULTILINGUAL BUSINESS SOLUTIONS
                         </div>
@@ -39,85 +39,7 @@
                                     Better than Best quality
                                 </span>
                             </p>
-                            We ensure apt <span class="bold color-special">quality control</span> to match functional accuracy and overallconsistency. This helps us to provide superior quality according to your specific industry requirements. We are proud to help you with our global network of professional expert teams who possess subject-matter expertise.
-                        </div>
-                    </div>
-                    <div class="col-md-4 p-4 shadow">
-                        <div class="title color-special-air bold my-2">
-                            MULTILINGUAL BUSINESS SOLUTIONS
-                        </div>
-                        <div class="content">
-                            Being pioneer in Multiilingual Business Services, we provide complete solutions for foreign languages. Our teams provide multilingual solutions that excatly match your requirement. Our experts understand that quality is most important in foreign language support hence our native & multi-industry expert provide superior solution on all of your business requirements. With our Foreign Language Support you can reply on us for:
-                            <p class="detail mt-2">
-                                <span class="icon">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#FF6600" class="bi bi-caret-right" viewBox="0 0 18 18">
-                                        <path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
-                                    </svg>
-                                </span>
-                                <span class="detail-content">
-                                    Better than Best quality
-                                </span>
-                            </p>
-                            <p class="detail">
-                                <span class="icon">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#FF6600" class="bi bi-caret-right" viewBox="0 0 18 18">
-                                        <path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
-                                    </svg>
-                                </span>
-                                <span class="detail-content">
-                                    Better than Best quality
-                                </span>
-                            </p>
-                            <p class="detail mb-2">
-                                <span class="icon">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#FF6600" class="bi bi-caret-right" viewBox="0 0 18 18">
-                                        <path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
-                                    </svg>
-                                </span>
-                                <span class="detail-content">
-                                    Better than Best quality
-                                </span>
-                            </p>
-                            We ensure apt <span class="bold color-special">quality control</span> to match functional accuracy and overallconsistency. This helps us to provide superior quality according to your specific industry requirements. We are proud to help you with our global network of professional expert teams who possess subject-matter expertise.
-                        </div>
-                    </div>
-                    <div class="col-md-4 p-4 shadow">
-                        <div class="title color-special-air bold my-2">
-                            MULTILINGUAL BUSINESS SOLUTIONS
-                        </div>
-                        <div class="content">
-                            Being pioneer in Multiilingual Business Services, we provide complete solutions for foreign languages. Our teams provide multilingual solutions that excatly match your requirement. Our experts understand that quality is most important in foreign language support hence our native & multi-industry expert provide superior solution on all of your business requirements. With our Foreign Language Support you can reply on us for:
-                            <p class="detail mt-2">
-                                <span class="icon">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#FF6600" class="bi bi-caret-right" viewBox="0 0 18 18">
-                                        <path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
-                                    </svg>
-                                </span>
-                                <span class="detail-content">
-                                    Better than Best quality
-                                </span>
-                            </p>
-                            <p class="detail">
-                                <span class="icon">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#FF6600" class="bi bi-caret-right" viewBox="0 0 18 18">
-                                        <path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
-                                    </svg>
-                                </span>
-                                <span class="detail-content">
-                                    Better than Best quality
-                                </span>
-                            </p>
-                            <p class="detail mb-2">
-                                <span class="icon">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#FF6600" class="bi bi-caret-right" viewBox="0 0 18 18">
-                                        <path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
-                                    </svg>
-                                </span>
-                                <span class="detail-content">
-                                    Better than Best quality
-                                </span>
-                            </p>
-                            We ensure apt <span class="bold color-special">quality control</span> to match functional accuracy and overallconsistency. This helps us to provide superior quality according to your specific industry requirements. We are proud to help you with our global network of professional expert teams who possess subject-matter expertise.
+                            We ensure apt <router-link to="/quality-system/"> <span class="bold color-special">quality control</span></router-link> to match functional accuracy and overallconsistency. This helps us to provide superior quality according to your specific industry requirements. We are proud to help you with our global network of professional expert teams who possess subject-matter expertise.
                         </div>
                     </div>
                 </div>
@@ -167,10 +89,6 @@
                               </div>
                               <div class="input_item pb-0">
                                 <textarea type="text" name="name" id="name"  placeholder="Write requirements" rows="5"/>
-                              </div>
-                              <div class="upload_button d-flex" >
-                                <button><img src="images/upload.png" style="width:15%; height:75%" />Upload Files</button>
-                                <p class="sec_content" style="margin-left: 10px;">Max 4 files<br/> (100MB each)</p>
                               </div>
                               <div class="send_button">
                                 <button ><img src="images/arrow.png" />&nbsp;SEND</button>
