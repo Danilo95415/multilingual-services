@@ -874,14 +874,14 @@ span.input-group-text {
         z-index: 999;
         top: 0;
         left: 0;
-        width: 500px;
+        width: 60%;
         height: 600px;
         animation-name: show;
         animation-duration: 0.8s;
     }
     @keyframes show {
         0% {width: 0px;}
-        100%{width: 500px;}
+        100%{width: 60%;}
     }
     .nav_button {
         width: 55px;
@@ -899,7 +899,12 @@ span.input-group-text {
         border: 0;
         margin: 0;
         padding: 0;
-        cursor: pointer;
+        cursor: pointer;   
+    }
+    .nav_button {
+        display: flex!important;
+        justify-content: center;
+        align-items: center;
     }
 }
 
@@ -1077,7 +1082,7 @@ span.input-group-text {
 
 /**Responsive**/
 .blackbar {
-    display: none;
+    display: none!important;
 }
 .ul_list_black {
     list-style-type: none;
