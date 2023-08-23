@@ -35,7 +35,7 @@ body {
 .list_item_navbar {
     font-family: Roboto, sans-serif;
     font-size: 13px;
-    /* font-weight: 500; */
+    font-weight: bold;
     border-right: 1px solid #fff;
     padding: 6px;
     color: #fff;
@@ -87,25 +87,25 @@ body {
     border-left: 5px solid #ff6600;
 }
 .get_ahead {
-    font-family: Roboto, sans-serif;
+    font-family: Acme,sans-serif;
     font-size: 28px;
-    /* font-weight: 400; */
+    font-weight: 400!important;
     line-height: 32px;
-    letter-spacing: 0em;
+    letter-spacing: 1px;
     text-align: left;
     color: #FFFFFF;
-    padding: 10px 10px 0 10px;
+    padding: 10px 0px 0 15px;
     margin-bottom: 0;
 }
 .foreign {
-    font-family: Roboto,sans-serif;
-    font-size: 18px;
-    /* font-weight: 400; */
+    font-family: Acme,sans-serif;
+    font-size: 21px;
+    font-weight: 400!important;
     line-height: 29px;
-    letter-spacing: 0em;
+    letter-spacing: 1px;
     text-align: left;
     color: #FF6600;
-    padding: 0 12px;
+    padding: 0 15px;
 }
 .inbox {
     height: 72px;
@@ -653,8 +653,9 @@ span.input-group-text {
     .serv-section-3 {
         height: 188px;
     }
+    
 }
-@media(max-width: 1400px) {
+@media(max-width: 1390px) {
     .serv-section-3 {
         height: 200px;
     }
@@ -664,8 +665,21 @@ span.input-group-text {
     .arrow {
         bottom: 10px!important;
     }
+    .section-choose .content {
+        font-size: 22px;
+    }
 }
+@media(max-width:1200px) {
 
+    .section-choose .content {
+        font-size: 20px;
+    }
+}
+@media(max-width:980px) {
+    .section-choose .content {
+        font-size: 18px;
+    }
+}
 /***case***/
 .case_content_header {
     font-weight: 800;
