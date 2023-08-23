@@ -409,7 +409,7 @@
     <div class="section-industry mt-5">
       <div class="container">
           <div class="title my-3 text-center">INDUSTRIES WE SERVE TO</div>
-          <div class="content mt-3 mb-4 text-center" style="font-size:22px; padding:0 230px; font-weight:bold">
+          <div class="content mt-3 mb-4 text-center">
               We provide our services to multiple industries and verticals. Here is a break-up of the industries that we offer serves
           </div>
           <div class="gallery row">
@@ -478,7 +478,7 @@
                 <div class="case_item_content_item">As a new company stemming from an established accounting firm</div>
               </div>
               <div class="col-md-6 col-sm-12 p-0">
-                <img src="images/proud_1.png" />
+                <img src="images/proud_1.png" style="max-width:100%"/>
               </div>
             </div>
             <div class="row mt-4">
