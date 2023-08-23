@@ -454,7 +454,6 @@
               <div class="col-md-6 col-sm-12 case_contents p-0">
                 <div class="d-flex justify-content-between">
                   <div class="case_item_content">Workspace cloud business</div>
-                  <div class="case_item_img"><img src="images/proud_4.png" alt=""></div>
                 </div>
                 <div class="case_item_content_item">As a new company stemming from an established accounting firm</div>
               </div>
@@ -466,7 +465,6 @@
               <div class="col-md-6 col-sm-12 case_contents p-0">
                 <div class="d-flex justify-content-between">
                   <div class="case_item_content">Managed backup services</div>
-                  <div class="case_item_img"><img src="images/proud_5.png" alt=""></div>
                 </div>
                 <div  class="case_item_content_item">With an upgraded on-site server and new internet circuites</div>
               </div>
@@ -537,12 +535,12 @@
               <div class="text-center p-3">
                 <img src="images/stars.svg" v-for="index in 5" :key='index'/>
               </div>
-              <div class="text-center mt-3" style=" font-style: italic;">
+              <div class="text-center" style=" font-style: italic;">
                 Lorem ipsum dolor sit amet consectetur.
                 Maecenas vitae suspendisse leo faucibus.
                 Non non interdum iaculis neque urna suspendisse diam aliquet.
               </div>
-              <div class="item_name mt-5 pt-2">
+              <div class="item_name mt-5">
                 <p>Alexander</p>
                 <p style="font-size: 13px;">Operation Manager, Market Research Company, USA</p>
               </div>
