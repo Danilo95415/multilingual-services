@@ -889,7 +889,6 @@ span.input-group-text {
         position: fixed;
         top: 15px;
         border-radius: 5px;
-        display: block!important;
         text-decoration: none;
         right: 5%;
         background: #212121;
@@ -900,6 +899,7 @@ span.input-group-text {
         border: 0;
         margin: 0;
         padding: 0;
+        cursor: pointer;
     }
 }
 
