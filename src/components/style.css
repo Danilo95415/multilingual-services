@@ -36,10 +36,10 @@ a {
     display: flex;
 }
 
-.ul_list li:hover ul {
+.all_navbar li:hover ul {
     display: block;
 }
-.ul_list li ul {
+.all_navbar li ul {
     padding: 0;
     display: none;
     position: absolute;
@@ -50,22 +50,22 @@ a {
     box-shadow: 2px 3px 5px #000;
     left: 0px;
 }
-.ul_list li li {
+.all_navbar li li {
     display: block;
     text-align: center;
     border: none;
 }
-.ul_list li {
+.all_navbar li {
     display: inline-block;
     text-transform: uppercase;
     border-right: 1px solid #fff;
     color: #f5f5f5;
     position: relative;
 }
-.ul_list li li a {
+.all_navbar li li a {
     display: block;
 }
-.ul_list li a {
+.all_navbar li a {
     color: #fcfcff;
     padding: 6px;
     font-size: 13px;

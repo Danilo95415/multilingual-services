@@ -10,7 +10,7 @@
                   <div class="nav_bar d-flex flex-column">
                       <ul class="all_navbar d-flex ul_list">
                         <li class="list_item_navbar"><img src="images/navbar_logo.png" style="margin-left: 6px;" />       
-                            <router-link to="/https://www.piemultilingual.com/multilingual-outsourcing-company-services/"> ALL SERVICES</router-link>
+                            <router-link to="/multilingual-outsourcing-company-services/"> ALL SERVICES</router-link>
                           </li>
                         <li class="list_item_navbar">
                           <router-link to="/global-outsourcing-industry-solutions/business-process-outsourcing/">Industries We Serve</router-link>
