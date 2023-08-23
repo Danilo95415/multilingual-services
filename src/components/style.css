@@ -148,13 +148,13 @@ body {
 }
 
 .slider_item {
-    
     padding: 30px 20px;
 }
 .border-item {
     border: 1px solid #D1ECF1;
     border-radius: 4px;
     padding: 30px 30px;
+    background-color: #fff;
 }
 .slider_item:first-child{
     margin-left: 0;
@@ -333,7 +333,7 @@ body {
 
 .section-price .context {
     line-height: 200%;
-    color: #FFFFFF;
+    color: #fff;
     font-size: 30px;
 }
 
