@@ -108,8 +108,9 @@
                   <div class="input_item pb-0">
                     <textarea type="text" name="name" id="name"  placeholder="Write requirements" rows="5"/>
                   </div>
-                  <div class="upload_button" >
-                    <button><img src="images/upload.png" style="width:15%; height:10%" />Upload Files</button>
+                  <div class="upload_button d-flex" >
+                    <button><img src="images/upload.png" style="width:15%; height:75%" />Upload Files</button>
+                    <p class="sec_content" style="margin-left: 10px;">Max 4 files<br/> (100MB each)</p>
                   </div>
                   <div class="send_button">
                     <button ><img src="images/arrow.png" />&nbsp;SEND</button>
@@ -139,7 +140,7 @@
             </p>
           </div>
           <div class="col-md-4 mt-5"  >
-            <img src="images/video.png" style="width: 100%"/>
+            <a href='https://youtu.be/hUOp7vUCQJM'><img src="images/video.png" style="width: 100%"/></a>
           </div>
         </div>
       </div>
@@ -343,7 +344,7 @@
       </div>
     </div> 
     <div class="section-choose mt-5">
-      <div class="container">
+      <div class="container-fluid">
           <div class="row  pos-relative">   
               <div class="col-md-6" style=" background-color:#CCCCCC">
                   <div class="content px-3">
@@ -423,8 +424,7 @@
               </div>
             </div>
         </div>
-    </div>
-    
+    </div> 
     <div class="section_proud mt-5 p-3">
       <div class="container">
         <div class="row">
@@ -446,8 +446,11 @@
         </div>
         <div class="row mt-3">
           <div class="col-md-1" />
-          <div class="col-md-4 col-sm-12">
-            <img src="images/proud_3.png" class="h-100" style="max-width: 100%;"  />
+          <div class="col-md-4 col-sm-12 " >
+            <img src="images/proud_3.jpg" class="h-100" style="max-width: 100%;"  />
+            <div class="proud_button_group">
+              <button>Find out More</button>
+            </div>
           </div>
           <div class="col-md-7 col-sm-12 ">
             <div class="row">  

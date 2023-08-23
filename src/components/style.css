@@ -66,6 +66,7 @@ body {
     display: block;
     line-height: 14px;
     font-size: 13px;
+    font-family: Roboto, sans-serif;
 }
 
 .serarch_button {
@@ -91,9 +92,9 @@ body {
     border-left: 5px solid #ff6600;
 }
 .get_ahead {
-    font-family: Acme,sans-serif;
+    font-family: Roboto, sans-serif;
     font-size: 28px;
-    font-weight: 400!important;
+    font-weight: bold;
     line-height: 32px;
     letter-spacing: 1px;
     text-align: left;
@@ -102,7 +103,7 @@ body {
     margin-bottom: 0;
 }
 .foreign {
-    font-family: Acme,sans-serif;
+    font-family: Roboto, sans-serif;
     font-size: 21px;
     font-weight: 400!important;
     line-height: 29px;
@@ -184,7 +185,7 @@ body {
 .section_language .title{
     font-size: 40px;
     font-weight: bold;
-    font-family: Acme, sans-serif;
+    font-family: Roboto, sans-serif;
     text-align: center;
     line-height: 1.1;
 }
@@ -197,7 +198,7 @@ body {
 .section-industry .title {
     font-size: 40px;
     font-weight: bold;
-    font-family: Acme, sans-serif;
+    font-family: Roboto, sans-serif;
     line-height: 1.1;
 }
 
@@ -219,6 +220,7 @@ body {
     font-weight: bold;
     color: #32b2c1;
     text-align:center;
+    font-family: Roboto, sans-serif;
 }
 .case_content {
     border: 1px solid #CCCCCC;
@@ -233,6 +235,7 @@ body {
     color: #FF6600;
     border-radius: 6px;
     font-weight: bold;
+    font-family: Roboto, sans-serif;
 }
 
 /*choose us*/
@@ -240,10 +243,12 @@ body {
     font-size: 40px;
     font-weight: bold;
     color: #32b2c1;
+    font-family: Roboto, sans-serif;
 }
 
 .section-choose .content {
     font-size: 24px;
+    font-family: Roboto, sans-serif;
 
 }
 
@@ -254,6 +259,7 @@ body {
 .section-choose .total-content .count {
     font-size: 50px;
     color: white;
+    font-family: Roboto, sans-serif;
 }
 
 .section-choose .total-content .amount-text {
@@ -301,21 +307,23 @@ body {
 .section-price .title {
     font-size: 40px;
     font-weight: bold;
-    /* color: #32b2c1; */
+    font-family: Roboto, sans-serif;
     margin-bottom: 20px;
 }
 
 .section-google .content{
     line-height: 210%;
-    font-size: 25px;
+    font-size: 35px;
+    font-family: Roboto, sans-serif;
 }
 
-.section-google .title {
+.seotion-google .title {
     font-size: 30px;
     color: #32b2c1;
     font-weight: bold;
     text-align: center;
     margin: 30px auto;
+    font-family: Roboto, sans-serif;
 }
 
 .section-google .send-btn {
@@ -326,6 +334,7 @@ body {
     color: #ff6600;
     font-size: 20px;
     width: 100%;
+    font-family: Roboto, sans-serif;
 }
 
 .section-google input, .section-google textarea {
@@ -342,6 +351,7 @@ body {
     line-height: 200%;
     color: #fff;
     font-size: 30px;
+    font-family: Roboto, sans-serif;
 }
 
 .section-footer {
@@ -353,10 +363,12 @@ body {
 .section-footer .title {
     font-size: 21px;
     line-height: 25px;
+    font-family: Roboto, sans-serif;
 }
 
 .section-footer .content {
     font-size: 14px;
+    font-family: Roboto, sans-serif;
 }
 
 .section-footer .content .detail {
@@ -369,6 +381,12 @@ body {
 }
 
 .color-special {
+    color: #FF6600;
+}
+.color-special:hover, .color-special:active {
+    color: #32B2C1;
+}
+.color-special-air {
     color: #FF6600;
 }
 
@@ -502,6 +520,7 @@ body {
     text-decoration: none;
     font-weight: bold;
     line-height: 90%;
+    font-family: Roboto, sans-serif;
 }
 
 
@@ -509,10 +528,12 @@ body {
 
 .ahead-icons .title {
     font-size: 30px;
+    font-family: Roboto, sans-serif;
 }
 
 .ahead-icons .word {
     font-size: 25px;
+    font-family: Roboto, sans-serif;
 }
 
 .bg-opacity {
@@ -604,7 +625,7 @@ span.input-group-text {
     font-weight: 500;
     line-height: 1.5;
     margin: 0px;
-    font-family: Acme, sans-serif;
+    font-family: Roboto, sans-serif;
     padding-left: 110px;
 
 }
@@ -615,6 +636,7 @@ span.input-group-text {
     line-height: 1;
     margin-top: 10px;
     padding-left: 110px;
+    font-family: Roboto, sans-serif;
 }
 .serv-section-3 p {
     margin: 10px 0;
@@ -641,6 +663,7 @@ span.input-group-text {
 .serv-section-3 .glyph-icon:before {
     color: #337ab7;
     font-size: 50px;
+    font-family: Roboto, sans-serif;
 }
 
 .serv-section-3 .arrow {
@@ -660,11 +683,16 @@ span.input-group-text {
     .serv-section-3 {
         height: 188px;
     }
+    .serv-section-3 {
+        height: 200px;
+        width: auto!important;
+    }
     
 }
 @media(max-width: 1390px) {
     .serv-section-3 {
-        height: 200px;
+        height: 220px;
+        width: 360px;
     }
     .serv-section-disc {
         height: 86%;
@@ -674,17 +702,20 @@ span.input-group-text {
     }
     .section-choose .content {
         font-size: 22px;
+        font-family: Roboto, sans-serif;
     }
 }
 @media(max-width:1200px) {
 
     .section-choose .content {
         font-size: 20px;
+        font-family: Roboto, sans-serif;
     }
 }
 @media(max-width:980px) {
     .section-choose .content {
         font-size: 18px;
+        font-family: Roboto, sans-serif;
     }
 }
 /***case***/
@@ -693,6 +724,7 @@ span.input-group-text {
     font-size: 20px;
     padding: 0 30px 0 0;
     color: #337ab7;
+    font-family: Roboto, sans-serif;
 }
 .case_contents {
     background-color: #E7E6EB;
@@ -707,16 +739,19 @@ span.input-group-text {
     font-weight: bold;
     font-size: 20px;
     padding: 0 30px;
+    font-family: Roboto, sans-serif;
 }
 .case_item_content_item {
     font-weight: 300;
     font-size: 15px;
     padding: 0 30px;
+    font-family: Roboto, sans-serif;
 }
 .case_content_items {
     font-weight: 300;
     font-size: 15px;
     padding: 0 100px 0 0;
+    font-family: Roboto, sans-serif;
 }
 .case_item_img {
     padding: 0 20px;
@@ -747,11 +782,12 @@ span.input-group-text {
     margin-bottom: 0;
     font-size: 18px;
     margin:0 15px;
-    
+    font-family: Roboto, sans-serif;
 }
 .price-board-header span{
     font-size: 30px;
     font-weight: bold;
+    font-family: Roboto, sans-serif;
 }
 .price-board-content {
     display: flex;
@@ -759,6 +795,7 @@ span.input-group-text {
     align-items: center;
     font-size: 25px;
     font-weight: 500;
+    font-family: Roboto, sans-serif;
 }
 .section_testmonials {
     background-image: url('../../public/images/testmonials.png');
@@ -769,4 +806,30 @@ span.input-group-text {
     background-image: url('../../public/images/case.png');
     background-repeat: no-repeat;
     background-size: cover;
+}
+.proud_button_group {
+    background-color: #54935C;
+    border-radius: 8px;
+    padding: 15px 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.proud_button_group button {
+    border: none;
+    background-color: #fff;
+    width: 100%;
+    padding: 5px;
+    font-family: Roboto, sans-serif;
+}
+.shadow:hover {
+    box-shadow: 0 0 8px #191919;
+    background: #fff;
+    color: #000;
+}
+.sec_content {
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 0;
+    line-height: 1;
 }

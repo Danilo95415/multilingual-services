@@ -3,8 +3,8 @@
         <div class="section-footer">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4 p-4">
-                        <div class="title color-special bold my-2">
+                    <div class="col-md-4 p-4 shadow">
+                        <div class="title color-special-air bold my-2">
                             MULTILINGUAL BUSINESS SOLUTIONS
                         </div>
                         <div class="content">
@@ -42,8 +42,8 @@
                             We ensure apt <span class="bold color-special">quality control</span> to match functional accuracy and overallconsistency. This helps us to provide superior quality according to your specific industry requirements. We are proud to help you with our global network of professional expert teams who possess subject-matter expertise.
                         </div>
                     </div>
-                    <div class="col-md-4 p-4">
-                        <div class="title color-special bold my-2">
+                    <div class="col-md-4 p-4 shadow">
+                        <div class="title color-special-air bold my-2">
                             MULTILINGUAL BUSINESS SOLUTIONS
                         </div>
                         <div class="content">
@@ -81,8 +81,8 @@
                             We ensure apt <span class="bold color-special">quality control</span> to match functional accuracy and overallconsistency. This helps us to provide superior quality according to your specific industry requirements. We are proud to help you with our global network of professional expert teams who possess subject-matter expertise.
                         </div>
                     </div>
-                    <div class="col-md-4 p-4">
-                        <div class="title color-special bold my-2">
+                    <div class="col-md-4 p-4 shadow">
+                        <div class="title color-special-air bold my-2">
                             MULTILINGUAL BUSINESS SOLUTIONS
                         </div>
                         <div class="content">
@@ -129,7 +129,7 @@
               <div class="container">
                 <div class="row">
                   <div class="col-12">
-                    <div class="context">
+                    <div class="context" >
                       Being pioneer in Multiilingual Business Services, we provide complete solutions for foreign languages. Our teams provide multilingual solutions that excatly match your requirement. Our experts understand that quality is most important in foreign language support hence our native & multi-industry expert provide superior solution on all of your business requirements.
                     </div>
                   </div>
@@ -140,31 +140,46 @@
         <div class="section-google" style=" background-color:#CCCCCC">
             <div class="container" >
                 <div class="row">
-                    <div class="col-md-6 d-flex align-items-center" >
+                    <div class="col-md-8 d-flex align-items-center" >
                         <div class="content">
                             Being pioneer in Multiilingual Business Services, we provide complete solutions for foreign languages. Our teams provide multilingual solutions that excatly match your requirement. Our experts understand that quality is most important in foreign language support hence our native & multi-industry expert provide superior solution on all of your business requirements.
                         </div>
                     </div>
-                    <div class="col-md-6 row d-flex align-items-center flex-column justify-content-center">
-                        <div class="col-md-8">
-                            <!-- <div class="title">Contact</div> -->
-                            <div class="mb-3">
-                                <label for="contact-name" class="form-label">Name</label>
-                                <input type="text" class="form-control" id="contact-name" placeholder="Name" required>
+                    <div class=" col-md-4 mt-3 mb-3 row" >
+                        <div class="col-md-10 mx-auto">
+                          <div class="box-shadow">
+                            <div class="py-3 bg-opacity">
+                              <p class='text-center' style="margin-bottom: 0; font-size:22px; color:#fff;font-family: Roboto Mono, monospace;">Request a <span style="letter-spacing: .5px;
+                                font-family: 'Acme', sans-serif;">FREE QUOTE</span></p>
+                              <p class='text-center' style="margin-bottom: 0; font-size:16px; color:#fff">Partner with Multilingual Experts!</p>
+                              <p class='text-center' style="margin-bottom: 0;font-size:14px; color:#fff">Save your cost within 12 Hours.</p>
                             </div>
-                            <div class="mb-3">
-                                <label for="email" class="form-label">Email address</label>
-                                <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+                            <div class="contact_us d-flex flex-column py-3">
+                              <div class="input_item">
+                                <input type="text" name="name" id="name" placeholder="Name">
+                              </div>
+                              <div class="input_item">
+                                <input type="text" name="name" id="name" placeholder="Email">
+                              </div>
+                              <div class="input_item d-flex">
+                                <span class="input-group-text rounded-0" style="border-color: #FF6600;" id="basic-addon1">US</span>
+                                <input type="text" name="phone" id="phone" class="rounded-0" placeholder="Phone">
+                              </div>
+                              <div class="input_item pb-0">
+                                <textarea type="text" name="name" id="name"  placeholder="Write requirements" rows="5"/>
+                              </div>
+                              <div class="upload_button d-flex" >
+                                <button><img src="images/upload.png" style="width:15%; height:75%" />Upload Files</button>
+                                <p class="sec_content" style="margin-left: 10px;">Max 4 files<br/> (100MB each)</p>
+                              </div>
+                              <div class="send_button">
+                                <button ><img src="images/arrow.png" />&nbsp;SEND</button>
+                              </div>
+                              <p style="margin-bottom: 0;font-size:12px;font-weight:300; padding:10px 0 0 8px;">We repect your privacy <span style="color:#32B2C1">Policy</span></p>
                             </div>
-                            <div class="mb-3">
-                                <label for="message" class="form-label">Message</label>
-                                <textarea class="form-control" id="message" rows="3" required></textarea>
-                            </div>
-                            <div class="mb-3 text-center">
-                                <button class="send-btn">Send</button>
-                            </div>
+                          </div>
                         </div>
-                    </div>
+                      </div>
                 </div>
             </div>
         </div>
