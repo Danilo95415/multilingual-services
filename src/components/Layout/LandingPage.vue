@@ -351,7 +351,7 @@
               </div>
               <div class="col-md-6 bg-color-orange">
                   <div class="row my-5">
-                      <div class="total-content col-md-6">
+                      <div class="total-content col-md-6 col-sm-6">
                           <div class="d-flex justify-content-center align-items-center">
                               <div class="icon">
                                   <img src="images/1.png">
@@ -362,7 +362,7 @@
                               </div>
                           </div>
                       </div>
-                      <div class="total-content col-md-6">
+                      <div class="total-content col-md-6 col-sm-6">
                           <div class="d-flex justify-content-center align-items-center">
                               <div class="icon">
                                   <img src="images/2.png">
@@ -375,7 +375,7 @@
                       </div>
                   </div>
                   <div class="row my-5">
-                      <div class="total-content col-md-6">
+                      <div class="total-content col-md-6 col-sm-6">
                           <div class="d-flex justify-content-center align-items-center">
                               <div class="icon">
                                   <img src="images/3.png">
@@ -386,7 +386,7 @@
                               </div>
                           </div>
                       </div>
-                      <div class="total-content col-md-6">
+                      <div class="total-content col-md-6 col-sm-6">
                           <div class="d-flex justify-content-center align-items-center">
                               <div class="icon">
                                   <img src="images/4.png">

@@ -43,12 +43,9 @@ a {
     padding: 0;
     display: none;
     position: absolute;
-    top: 20px;
-    width: 100px;
     background: #ff6600;
     z-index: 999;
     box-shadow: 2px 3px 5px #000;
-    left: 0px;
 }
 .all_navbar li li {
     display: block;
@@ -65,13 +62,9 @@ a {
 .all_navbar li li a {
     display: block;
 }
-.all_navbar li a {
+.all_navbar li a, .all_navbar li{
     color: #fcfcff;
-    padding: 6px;
-    font-size: 13px;
     text-transform: capitalize;
-    border-radius: 3px;
-    FONT-WEIGHT: bold;
     text-decoration: none;
 }
 .all_navbar {
@@ -753,6 +746,7 @@ span.input-group-text {
         display: flex;
         flex-wrap: wrap;
     }
+    
 }
 
 @media (max-width:1100px) {
@@ -823,6 +817,10 @@ span.input-group-text {
     .list_item span {
         font-size: 10px;
     }
+    .list_item_navbar {
+        font-size: 11px;
+        padding: 5px;
+    }
 }
 @media (max-width:768px ) {
     .ul_list {
@@ -863,8 +861,48 @@ span.input-group-text {
     .inbox {
         width: 100%;
     }
-    
+    .list_item_navbar {
+        font-size: 13px;
+        padding: 6px;
+    }
+    .section-choose .content {
+        padding: 18px 0;
+    }
+    .blackbar {
+        position: absolute;
+        background-color: #212121;
+        z-index: 999;
+        top: 0;
+        left: 0;
+        width: 500px;
+        height: 600px;
+        animation-name: show;
+        animation-duration: 0.8s;
+    }
+    @keyframes show {
+        0% {width: 0px;}
+        100%{width: 500px;}
+    }
+    .nav_button {
+        width: 55px;
+        height: 55px;
+        position: fixed;
+        top: 15px;
+        border-radius: 5px;
+        display: block!important;
+        text-decoration: none;
+        right: 5%;
+        background: #212121;
+        transition: transform 0.5s, background-color 0.5s;
+        z-index: 999999;
+        overflow: hidden;
+        outline: none;
+        border: 0;
+        margin: 0;
+        padding: 0;
+    }
 }
+
 
 .search_control {
     display: flex;
@@ -1037,3 +1075,67 @@ span.input-group-text {
 }
 
 
+/**Responsive**/
+.blackbar {
+    display: none;
+}
+.ul_list_black {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.ul_list_black .list_item {
+    font-family: Roboto, sans-serif;
+    font-size: 13px;
+    line-height: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    cursor: pointer;
+}
+.ul_list_black .list_item:hover {
+    background-color: #FF6600;
+}
+.ul_list_black .list_item span {
+    display: block;
+    line-height: 14px;
+    font-size: 13px;
+    font-family: Roboto, sans-serif;
+}
+.ul_list_black .list_item a {
+    text-decoration: none;
+    font-family: Roboto, sans-serif;
+    color: #fff;
+}
+.ul_list_black .search_control {
+    width: 100%;
+    display: flex;
+    padding: 15px 30px;
+    justify-content: flex-start;
+}
+.ul_list_black .search_control input {
+    border-top-right-radius: 0px!important;
+    border-bottom-right-radius: 0px!important;
+}
+.nav_button {
+   display: none;
+}
+
+.nav_button .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #fff;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+.change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+  }
+  
+.change .bar2 {opacity: 0;}
+  
+.change .bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+}
