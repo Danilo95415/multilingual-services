@@ -16,7 +16,7 @@
                         </div>
                         <div class="col-md-8 " style="padding: 12px;">
                           <p style="margin-bottom: 0; color:#FF6600 ; font-weight:500">250+</p>
-                          <p style="margin-bottom: 0; font-size:14px">Happy customer</p>
+                          <p class="language">Happy customer</p>
                         </div>
                       </div>
                       <div class="inbox col-md-5 d-flex">
@@ -25,7 +25,7 @@
                         </div>
                         <div  class="col-md-8"  style="padding: 12px;">
                           <p style="margin-bottom: 0; color:#FF6600 ; font-weight:500">600+</p>
-                          <p style="margin-bottom: 0;font-size:13px">Completed projects</p>
+                          <p class="language">Completed projects</p>
                         </div>
                       </div>
                     </div>  
@@ -36,7 +36,7 @@
                         </div>
                         <div class="col-md-8 " style="padding: 12px;">
                           <p style="margin-bottom: 0; color:#FF6600; font-weight:500">108K+</p>
-                          <p style="margin-bottom: 0; font-size:13px">Available Resources</p>
+                          <p class="language">Available Resources</p>
                         </div>
                       </div>
                       <div class="inbox col-md-5 d-flex">
@@ -45,7 +45,7 @@
                         </div>
                         <div  class="col-md-8"  style="padding: 12px;">
                           <p style="margin-bottom: 0; color:#FF6600; font-weight:500">11K+</p>
-                          <p style="margin-bottom: 0;font-size:14px">Subscribers</p>
+                          <p class="language">Subscribers</p>
                         </div>
                       </div>
                     </div>
@@ -89,8 +89,7 @@
             <div class="col-md-10 mx-auto">
               <div class="box-shadow">
                 <div class="py-3 bg-opacity">
-                  <p class='text-center' style="margin-bottom: 0; font-size:22px; color:#fff;font-family: Roboto Mono, monospace;">Request a <span style="letter-spacing: .5px;
-                    font-family: 'Acme', sans-serif;">FREE QUOTE</span></p>
+                  <p class='text-center' style="margin-bottom: 0; font-size:20px;font-weight:bold; color:#fff; font-family: Roboto, sans-serif;">Request a FREE QUOTE</p>
                   <p class='text-center' style="margin-bottom: 0; font-size:16px; color:#fff">Partner with Multilingual Experts!</p>
                   <p class='text-center' style="margin-bottom: 0;font-size:14px; color:#fff">Save your cost within 12 Hours.</p>
                 </div>

@@ -81,7 +81,12 @@ body {
     background-image: url('../../public/images/background.png');
     background-size: cover;
 }
-
+ .language {
+    margin-bottom: 0;
+    font-size:14px;
+    font-family: Roboto, sans-serif;
+    font-weight: 600!important;
+}
 .box_1 {
     
     background: #00000080;
@@ -738,7 +743,7 @@ span.input-group-text {
 .case_item_content {
     font-weight: bold;
     font-size: 20px;
-    padding: 0 30px;
+    padding: 0 55px 0 30px;
     font-family: Roboto, sans-serif;
 }
 .case_item_content_item {
@@ -836,7 +841,6 @@ span.input-group-text {
     font-weight: bold;
     font-size: 13px;
     color: #fff;
-    margin-top: 80px;
 
 }
 .proud_button_group {
