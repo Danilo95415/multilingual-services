@@ -39,6 +39,10 @@ body {
     border-right: 1px solid #fff;
     padding: 6px;
     color: #fff;
+    cursor:pointer;
+}
+.list_item_navbar:hover {
+    color: #000;
 }
 .list_item_navbar:first-child {
     border-bottom-left-radius: 50%;
