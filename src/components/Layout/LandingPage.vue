@@ -139,7 +139,7 @@
               Foreign Language outsourcing company will help to open your business in new geography. Add foreign language services in your expertise and Leverage your business with us.
             </p>
           </div>
-          <div class="col-md-4 mt-5"  >
+          <div class="col-md-4 mt-5 pt-5"  >
             <a href='https://youtu.be/hUOp7vUCQJM'><img src="images/video.png" style="width: 100%"/></a>
           </div>
         </div>
@@ -429,7 +429,19 @@
       <div class="container">
         <div class="row">
           <div class="col-md-1" />
-          <div class="col-md-4 col-sm-12">
+          <div class="col-md-4 col-sm-12 p-0">
+            <div class="success_stories">SUCCESS STORIES</div>
+          </div>
+          <div class="col-md-7 col-sm-12 mt-2">
+            <div class="row" >
+              <div class="col-md-10 success_line"></div>
+             <div class="col-md-2" />
+            </div>
+          </div>
+        </div>
+        <div class="row mt-2">
+          <div class="col-md-1" />
+          <div class="col-md-4 col-sm-12" style="padding-left: 0;">
             <div class="case_content_header">Proud of our work, but we're even more proud of the results.</div>
           </div>
           <div class="col-md-7 col-sm-12 mt-3">
@@ -446,8 +458,14 @@
         </div>
         <div class="row mt-3">
           <div class="col-md-1" />
-          <div class="col-md-4 col-sm-12 " >
-            <img src="images/proud_3.jpg" class="h-100" style="max-width: 100%;"  />
+          <div class="col-md-4 col-sm-12 proud_all" >
+            <div class="proud_header">
+              Cybersecurity and cloud
+            </div>
+            <div class="proud_content">
+              Migrated them to the Cloud, and provided Office<br />
+              365 management.
+            </div>
             <div class="proud_button_group">
               <button>Find out More</button>
             </div>
