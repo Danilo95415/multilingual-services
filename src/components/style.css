@@ -184,8 +184,9 @@ body {
 .section_language .title{
     font-size: 40px;
     font-weight: bold;
-    /* color: #32b2c1; */
+    font-family: Acme, sans-serif;
     text-align: center;
+    line-height: 1.1;
 }
 
 /* INDUSTRY */
@@ -196,6 +197,8 @@ body {
 .section-industry .title {
     font-size: 40px;
     font-weight: bold;
+    font-family: Acme, sans-serif;
+    line-height: 1.1;
 }
 
 .section-industry .gallery .short-text {
