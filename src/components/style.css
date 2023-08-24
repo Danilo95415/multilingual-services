@@ -907,7 +907,11 @@ span.input-group-text {
         align-items: center;
     }
 }
-
+@media(min-width:768px) {
+    .blackbar {
+        display: none!important;
+    }
+}
 
 .search_control {
     display: flex;
@@ -1082,7 +1086,7 @@ span.input-group-text {
 
 /**Responsive**/
 .blackbar {
-    display: none!important;
+    display: none;
 }
 .ul_list_black {
     list-style-type: none;
@@ -1135,6 +1139,7 @@ span.input-group-text {
     transition: 0.4s;
   }
   
+
 .change .bar1 {
     transform: translate(0, 11px) rotate(-45deg);
   }
