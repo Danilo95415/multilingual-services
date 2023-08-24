@@ -350,7 +350,7 @@
                   <div class="col-md-4 d-flex flex-column">
                     <span class="country_flag"><i class="flag flag-french-guiana "  />French</span>
                     <span class="country_flag"><i class="flag flag-japan " />Japanese</span>
-                    <span class="country_flag"><i class="flag flag-england" />England</span>
+                    <span class="country_flag"><i class="flag flag-south-korea" />Korean</span>
                     <span class="country_flag"><i class="flag flag-hungary " />Hungarian</span>
                     <span class="country_flag"><i class="flag flag-norway " />Norwegian</span>
                     <span class="country_flag"><i class="flag flag-turkey " />Turkish</span>
