@@ -82,36 +82,38 @@
               </div>
           </div>
           </div>
-          <!-- <div class="col-md-1" /> -->
           <div class=" col-md-4 mt-3 row" >
             <div class="col-md-10 mx-auto">
               <div class="box-shadow">
                 <div class="py-3 bg-opacity">
-                  <p class='text-center' style="margin-bottom: 0; font-size:20px;font-weight:bold; color:#fff; font-family: Roboto, sans-serif;">Request a <span class="free">FREE QUOTE</span></p>
-                  <p class='text-center' style="margin-bottom: 0; font-size:16px; color:#fff">Partner with Multilingual Experts!</p>
+                  <p class='text-center' style="margin-bottom: 0; font-size:20px; color:#fff;line-height: 16px;padding-bottom: 5px; font-family: Roboto, monospace;">Request a <span class="free">FREE QUOTE</span></p>
+                  <p class='text-center' style="margin-bottom: 0; font-size:16px; color:#fff; padding-bottom: 5px;">Partner with Multilingual Experts!</p>
                   <p class='text-center' style="margin-bottom: 0;font-size:14px; color:#fff">Save your cost within 12 Hours.</p>
                 </div>
                 <div class="contact_us d-flex flex-column py-3">
-                  <div class="input_item">
-                    <input type="text" name="name" id="name" placeholder="Name">
-                  </div>
-                  <div class="input_item">
-                    <input type="text" name="name" id="name" placeholder="Email">
-                  </div>
-                  <div class="input_item d-flex">
-                    <span class="input-group-text rounded-0" style="border-color: #FF6600;" id="basic-addon1">IN</span>
-                    <input type="text" name="phone" id="phone" class="rounded-0" placeholder="Phone">
-                  </div>
-                  <div class="input_item pb-0">
-                    <textarea type="text" name="name" id="name"  placeholder="Write requirements" rows="5"/>
-                  </div>
-                  <div class="upload_button d-flex" >
-                    <button><img src="images/upload.png" style="width:15%; height:75%" />Upload Files</button>
-                    <p class="sec_content" style="margin-left: 10px;">Max 4 files<br/> (10MB each)</p>
-                  </div>
-                  <div class="send_button">
-                    <button ><img src="images/arrow.png" />&nbsp;SEND</button>
-                  </div>
+                  <form @submit.prevent="submitForm">
+                    <div class="input_item">
+                      <input type="text" name="name" id="name" placeholder="Name" v-model="name">
+                    </div>
+                    <div class="input_item">
+                      <input type="text" name="name" id="name" placeholder="Email" v-model="email">
+                    </div>
+                    <div class="input_item d-flex">
+                      <span class="input-group-text rounded-0" style="border-color: #FF6600;" id="basic-addon1">IN</span>
+                      <input type="text" name="phone" id="phone" class="rounded-0" v-model="phone" placeholder="Phone">
+                    </div>
+                    <div class="input_item pb-0">
+                      <textarea type="text" name="name" id="name"  placeholder="Write requirements" v-model="message" rows="5"/>
+                    </div>
+                    <vue-recaptcha v-model="recaptchaToken" sitekey="6Lf2FtAnAAAAAA_lH697bw7eHErFnnq3GNZ1nbnf"></vue-recaptcha>
+                    <div class="upload_button d-flex" >
+                      <button><img src="images/upload.png" style="width:15%; height:75%" />Upload Files</button>
+                      <p class="sec_content" style="margin-left: 10px;">Max 4 files<br/> (10MB each)</p>
+                    </div>
+                    <div class="send_button">
+                      <button type="submit" class="flaticon-send">&nbsp;SEND</button>
+                    </div>
+                  </form>
                   <p style="margin-bottom: 0;font-size:12px;font-weight:300; padding:10px 0 0 8px;">We repect your privacy <span style="color:#32B2C1">Policy</span></p>
                 </div>
               </div>
@@ -160,8 +162,7 @@
                 </h5>
               </div>
               <div class="section-heading-line-left"></div>
-              <div class="arrow">
-                <img src=" images/arrow2.png" width="55px" height="55px">
+              <div class="arrow flaticon-send-1">
               </div>
             </div>
           </div>
@@ -180,8 +181,7 @@
                 </h5>
               </div>
               <div class="section-heading-line-left"></div>
-              <div class="arrow">
-                <img src="images/arrow2.png" width="55px" height="55px">
+              <div class="arrow flaticon-send-1">
               </div>
             </div>
           </div>
@@ -201,8 +201,7 @@
                 </h5>
               </div>
               <div class="section-heading-line-left"></div>
-              <div class="arrow">
-                <img src="images/arrow2.png" width="55px" height="55px">
+              <div class="arrow flaticon-send-1">
               </div>
             </div>
           </div>
@@ -222,8 +221,7 @@
                 </h5>
               </div>
               <div class="section-heading-line-left"></div>
-              <div class="arrow">
-                <img src="images/arrow2.png" width="55px" height="55px">
+              <div class="arrow flaticon-send-1">
               </div>
             </div>
           </div>
@@ -243,8 +241,7 @@
                 </h5>
               </div>
               <div class="section-heading-line-left"></div>
-              <div class="arrow">
-                <img src="images/arrow2.png" width="55px" height="55px">
+              <div class="arrow flaticon-send-1">
               </div>
             </div>
           </div>
@@ -263,8 +260,7 @@
                 </h5>
               </div>
               <div class="section-heading-line-left"></div>
-              <div class="arrow">
-                <img src="images/arrow2.png" width="55px" height="55px">
+              <div class="arrow flaticon-send-1">
               </div>
             </div>
           </div>
@@ -283,8 +279,7 @@
                 </h5>
               </div>
               <div class="section-heading-line-left"></div>
-              <div class="arrow">
-                <img src=" images/arrow2.png" width="55px" height="55px">
+              <div class="arrow flaticon-send-1">
               </div>
             </div>
           </div>
@@ -303,8 +298,7 @@
                 </h5>
               </div>
               <div class="section-heading-line-left"></div>
-              <div class="arrow">
-                <img src="images/arrow2.png" width="55px" height="55px">
+              <div class="arrow flaticon-send-1">
               </div>
             </div>
           </div>
@@ -324,8 +318,7 @@
                 </h5>
               </div>
               <div class="section-heading-line-left"></div>
-              <div class="arrow">
-                <img src="images/arrow2.png" width="55px" height="55px">
+              <div class="arrow flaticon-send-1">
               </div>
             </div>
           </div>
@@ -563,11 +556,14 @@
 <script>
   import { Carousel, Slide } from 'vue-carousel'
   import FooterPages from '@/components/Layout/FooterPages'
+  import VueRecaptcha from  '@gurinder/vue-google-recaptcha'
+  import axios from 'axios'
   export default {
     components : {
       Carousel,
       Slide,
-      FooterPages
+      FooterPages,
+      VueRecaptcha
     }, 
     data() {
       return {
@@ -597,9 +593,41 @@
           { url:'images/icons/Retail.svg', name : 'Retail & e-Commerce' },
           { url:'images/icons/Telecommunications.svg', name : 'Telecommunications' },
           { url:'images/icons/Transport.svg', name : 'Transport' },
-        ]
+        ],
+        name:"",
+        email:"",
+        phone:"",
+        message:"",
+        recaptchaToken:""
       }
-    }
+    },
+    methods: {
+      submitForm() {
+        axios
+          .post("/", {
+            name: this.name,
+            email: this.email,
+            phone: this.phone,
+            message: this.message,
+            recaptchaToken: this.recaptchaToken,
+          })
+          .then(() => {
+            alert("Message sent successfully!");
+          })
+          .catch((error) => {
+            console.error(error);
+            alert("An error occurred while sending the message.");
+          });
+      },
+    },
+    watch: {
+      recaptchaToken(newValue) {
+        if (newValue) {
+          this.submitForm();
+        }
+      },
+    },
+
   }
 </script>
 

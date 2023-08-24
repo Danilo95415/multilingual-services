@@ -8,6 +8,8 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@gurinder/vue-google-recaptcha": "^1.0.4",
+    "axios": "^1.4.0",
     "bootstrap": "^5.3.1",
     "core-js": "^3.8.3",
     "vue": "^2.6.14",

@@ -65,9 +65,8 @@
                         <div class="col-md-10 mx-auto">
                           <div class="box-shadow">
                             <div class="py-3 bg-opacity">
-                              <p class='text-center' style="margin-bottom: 0; font-size:22px; color:#fff;font-family: Roboto Mono, monospace;">Request a <span style="letter-spacing: .5px;
-                                font-family: 'Acme', sans-serif;">FREE QUOTE</span></p>
-                              <p class='text-center' style="margin-bottom: 0; font-size:16px; color:#fff">Partner with Multilingual Experts!</p>
+                              <p class='text-center' style="margin-bottom: 0; font-size:20px; color:#fff;line-height: 16px;padding-bottom: 5px; font-family: Roboto, monospace;">Request a <span class="free">FREE QUOTE</span></p>
+                              <p class='text-center' style="margin-bottom: 0; font-size:16px; color:#fff; padding-bottom: 5px;">Partner with Multilingual Experts!</p>
                               <p class='text-center' style="margin-bottom: 0;font-size:14px; color:#fff">Save your cost within 12 Hours.</p>
                             </div>
                             <div class="contact_us d-flex flex-column py-3">
@@ -84,8 +83,12 @@
                               <div class="input_item pb-0">
                                 <textarea type="text" name="name" id="name"  placeholder="Write requirements" rows="5"/>
                               </div>
+                              <div class="upload_button d-flex" >
+                                <button><img src="images/upload.png" style="width:15%; height:75%" />Upload Files</button>
+                                <p class="sec_content" style="margin-left: 10px;">Max 4 files<br/> (10MB each)</p>
+                              </div>
                               <div class="send_button">
-                                <button ><img src="images/arrow.png" />&nbsp;SEND</button>
+                                <button class="flaticon-send">&nbsp;SEND</button>
                               </div>
                               <p style="margin-bottom: 0;font-size:12px;font-weight:300; padding:10px 0 0 8px;">We repect your privacy <span style="color:#32B2C1">Policy</span></p>
                             </div>
