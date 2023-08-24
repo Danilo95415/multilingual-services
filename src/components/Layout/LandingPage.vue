@@ -328,60 +328,46 @@
     <div class="section-choose mt-5">
       <div class="container-fluid">
           <div class="row  pos-relative">   
-              <div class="col-md-6" style=" background-color:#CCCCCC">
+              <div class="col-md-6 d-flex flex-column" style=" background-color:#CCCCCC">
                   <div class="content px-3">
                       Browse Case Studies to find out how our Multiilingual Virtual Assistants have helped our global customers to exceed their expectations. Browse Case Studies to find out how our Multilingual Virtual Assistants have helped our global customers to exceed their expectations. Browse Case Studies to find out how our Multilingual Virtual Assistants have helped our global customers to exceed their expectations.
                   </div>
+                  <div class="know-more px-3 py-3">
+                    <button>Know More</button>
+                </div>
               </div>
-              <div class="col-md-6 bg-color-orange">
-                  <div class="row my-5">
-                      <div class="total-content col-md-6 col-sm-6">
-                          <div class="d-flex justify-content-center align-items-center">
-                              <div class="glyphic flaticon-languages">
-                              </div>
-                              <div class="amount text-center">
-                                  <div class="count">15+</div>
-                                  <div class="amount-text">Total Amount</div>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="total-content col-md-6 col-sm-6">
-                          <div class="d-flex justify-content-center align-items-center">
-                            <div class="glyphic flaticon-text">
-                            </div>
-                              <div class="amount text-center">
-                                  <div class="count">15+</div>
-                                  <div class="amount-text">Total Amount</div>
-                              </div>
-                          </div>
-                      </div>
+              <div class="col-md-6 backimage">
+                 <div class="row">
+                  <div class="col-md-4 d-flex flex-column">       
+                    <span class="country_flag"><i class="flag flag-china " />Chinese</span>
+                    <span class="country_flag"><i class="flag flag-germany " />German</span>
+                    <span class="country_flag"><i class="flag flag-heard-island " />Hebrew</span>
+                    <span class="country_flag"><i class="flag flag-indonesia " />Indonesian</span>
+                    <span class="country_flag"><i class="flag flag-portugal " />Portuguese</span>
+                    <span class="country_flag"><i class="flag flag-aruba " />Arabic</span>
+                    <span class="country_flag"><i class="flag flag-thailand " />Thai</span>
                   </div>
-                  <div class="row my-5">
-                      <div class="total-content col-md-6 col-sm-6">
-                          <div class="d-flex justify-content-center align-items-center">
-                            <div class="glyphic flaticon-interpreter">
-                            </div>
-                              <div class="amount text-center">
-                                  <div class="count">15+</div>
-                                  <div class="amount-text">Total Amount</div>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="total-content col-md-6 col-sm-6">
-                          <div class="d-flex justify-content-center align-items-center">
-                            <div class="glyphic flaticon-radio">
-                            </div>
-                              <div class="amount text-center">
-                                  <div class="count">15+</div>
-                                  <div class="amount-text">Total Amount</div>
-                              </div>
-                          </div>
-                      </div>
+                  <div class="col-md-4 d-flex flex-column">
+                    <span class="country_flag"><i class="flag flag-french-guiana "  />French</span>
+                    <span class="country_flag"><i class="flag flag-japan " />Japanese</span>
+                    <span class="country_flag"><i class="flag flag-kp " />Korean</span>
+                    <span class="country_flag"><i class="flag flag-hungary " />Hungarian</span>
+                    <span class="country_flag"><i class="flag flag-norway " />Norwegian</span>
+                    <span class="country_flag"><i class="flag flag-turkey " />Turkish</span>
+                    <span class="country_flag"><i class="flag flag-cz " />Czech</span>
                   </div>
+                  <div class="col-md-4 d-flex flex-column">
+                    <span class="country_flag"><i class="flag flag-madagascar " />Mandarin</span>
+                    <span class="country_flag"><i class="flag flag-spain " />Spanish</span>
+                    <span class="country_flag"><i class="flag flag-denmark " />Dutch</span>
+                    <span class="country_flag"><i class="flag flag-italy " />Italian</span>
+                    <span class="country_flag"><i class="flag flag-russia " />Russian</span>
+                    <span class="country_flag"><i class="flag flag-vietnam " />Vietnamese</span>
+                    <span class="country_flag"><i class="flag flag-tanzania " />Tagalog</span>
+                  </div>
+                 </div> 
               </div>
-              <div class="know-more">
-                  <button>Know More</button>
-              </div>
+              
           </div>
       </div>
     </div>

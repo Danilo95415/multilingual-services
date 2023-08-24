@@ -299,7 +299,7 @@ a {
 
 .section-choose .content {
     font-size: 24px;
-    font-family: Roboto, sans-serif;
+    font-family: Acme, sans-serif;
 
 }
 
@@ -322,14 +322,12 @@ a {
 }
 
 .section-choose .know-more button{
-    position: absolute;
     border: 2px solid #FF6600;
-    bottom: 20px;
-    left: 25px;
     background-color: white;
     color: #FF6600;
     border-radius: 6px;
     font-weight: 600;
+
 }
 /* Footer */
 .section-language .support .support-icon {
@@ -645,7 +643,13 @@ span.input-group-text {
 .serv-section-3:hover .serv-section-3-icon{
     background:#337ab7;
 }
-
+/*flag*/
+.backimage {
+    background-color: #fff;
+}
+.country_flag {
+    padding: 15px;
+}
 .flaticon-gears:before, .flaticon-magnifying-glass:before {
     font-size: 15px !important;
     margin-left: 20px;
@@ -805,8 +809,8 @@ span.input-group-text {
         bottom: 8px!important;
     }
     .section-choose .content {
-        font-size: 23px;
-        font-family: Roboto, sans-serif;
+        font-size: 25px;
+        font-family: Acme, sans-serif;
     }
 }
 @media(max-width:1200px) {
