@@ -5,7 +5,7 @@ import routes from "./routes/routes";
 
 import "./components/style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-
+import "./assets/flaticon/flaticon.css";
 Vue.config.productionTip = false;
 
 Vue.use(VueRouter);

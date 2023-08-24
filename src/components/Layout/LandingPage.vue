@@ -11,8 +11,7 @@
                   <p class="foreign">FOREIGN LANGUAGE SERVICE COMPANY</p>
                     <div class=" d-flex justify-content-center mt-1">
                       <div class="inbox col-md-5 d-flex">
-                        <div class="col-md-4 d-flex align-items-center justify-content-center" style="background-color: #DDE1E6;">
-                          <img src="images/smiley.svg" />
+                        <div class="col-md-4 d-flex align-items-center justify-content-center flaticon-medal"  style="background-color: #DDE1E6;">
                         </div>
                         <div class="col-md-8 " style="padding: 12px;">
                           <p style="margin-bottom: 0; color:#FF6600 ; font-weight:500">250+</p>
@@ -20,8 +19,8 @@
                         </div>
                       </div>
                       <div class="inbox col-md-5 d-flex">
-                        <div  class="col-md-4 d-flex align-items-center justify-content-center" style="background-color: #DDE1E6;">
-                          <img src="images/Vector.svg" />
+                        <div  class="col-md-4 d-flex align-items-center justify-content-center flaticon-typing-1" style="background-color: #DDE1E6;">
+                          
                         </div>
                         <div  class="col-md-8"  style="padding: 12px;">
                           <p style="margin-bottom: 0; color:#FF6600 ; font-weight:500">600+</p>
@@ -31,8 +30,8 @@
                     </div>  
                     <div class=" d-flex justify-content-center mt-3">
                       <div class="inbox col-md-5 d-flex">
-                        <div class="col-md-4 d-flex align-items-center justify-content-center" style="background-color: #DDE1E6;">
-                          <img src="images/Vector_2.svg" />
+                        <div class="col-md-4 d-flex align-items-center justify-content-center flaticon-world " style="background-color: #DDE1E6;">
+                          
                         </div>
                         <div class="col-md-8 " style="padding: 12px;">
                           <p style="margin-bottom: 0; color:#FF6600; font-weight:500">108K+</p>
@@ -40,8 +39,8 @@
                         </div>
                       </div>
                       <div class="inbox col-md-5 d-flex">
-                        <div  class="col-md-4 d-flex align-items-center justify-content-center" style="background-color: #DDE1E6;">
-                          <img src="images/users.svg" />
+                        <div  class="col-md-4 d-flex align-items-center justify-content-center flaticon-customer-service" style="background-color: #DDE1E6;">
+                          
                         </div>
                         <div  class="col-md-8"  style="padding: 12px;">
                           <p style="margin-bottom: 0; color:#FF6600; font-weight:500">11K+</p>
@@ -56,7 +55,6 @@
             <div class="ahead-icons row mt-4">
               <div class="title text-white my-3">TRUST BY:</div>
               <div class="d-flex flex-wrap">
-
                 <div class="m-3 icon_item">
                   <div class="ahead-item d-flex align-items-center">
                     <div class="icon"><img src="images/icon1.png" height="50px"></div>
@@ -101,7 +99,7 @@
                     <input type="text" name="name" id="name" placeholder="Email">
                   </div>
                   <div class="input_item d-flex">
-                    <span class="input-group-text rounded-0" style="border-color: #FF6600;" id="basic-addon1">US</span>
+                    <span class="input-group-text rounded-0" style="border-color: #FF6600;" id="basic-addon1">IN</span>
                     <input type="text" name="phone" id="phone" class="rounded-0" placeholder="Phone">
                   </div>
                   <div class="input_item pb-0">
@@ -109,7 +107,7 @@
                   </div>
                   <div class="upload_button d-flex" >
                     <button><img src="images/upload.png" style="width:15%; height:75%" />Upload Files</button>
-                    <p class="sec_content" style="margin-left: 10px;">Max 4 files<br/> (100MB each)</p>
+                    <p class="sec_content" style="margin-left: 10px;">Max 4 files<br/> (10MB each)</p>
                   </div>
                   <div class="send_button">
                     <button ><img src="images/arrow.png" />&nbsp;SEND</button>
@@ -138,8 +136,8 @@
               Foreign Language outsourcing company will help to open your business in new geography. Add foreign language services in your expertise and Leverage your business with us.
             </p>
           </div>
-          <div class="col-md-4 mt-5 pt-5"  >
-            <a href='https://youtu.be/hUOp7vUCQJM'><img src="images/video.png" style="width: 100%"/></a>
+          <div class="col-md-4 pt-4"  >
+            <iframe width="400" height="225" style="margin-top:30px" src="https://www.youtube.com/embed/hUOp7vUCQJM?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
           </div>
         </div>
       </div>
@@ -150,8 +148,7 @@
           <div class="col-md-4 col-sm-12 col-12 col-display">
             <div class="serv-section-3">
               <div class="serv-section-3-icon">
-                <div class="glyph-icon">
-                  <img src="images/icons/call.svg" style="width: 75%;" class="logo-img" />
+                <div class="glyph-icon flaticon-support">              
                 </div>
               </div>
               <div class="serv-section-disc">
@@ -171,8 +168,7 @@
           <div class="col-md-4 col-sm-12 col-12 col-display">
             <div class="serv-section-3">
               <div class="serv-section-3-icon">
-                <div class="glyph-icon flaticon-support">
-                  <img src="images/icons/market.svg" style="width: 75%;" />
+                <div class="glyph-icon flaticon-market-research">
                 </div>
               </div>
               <div class="serv-section-disc">
@@ -192,8 +188,8 @@
           <div class="col-md-4 col-sm-12 col-12 col-display">
             <div class="serv-section-3">
               <div class="serv-section-3-icon">
-                <div class="glyph-icon flaticon-support">
-                  <img src="images/icons/audio.svg" style="width: 75%;"/>
+                <div class="glyph-icon flaticon-music" style="left:33px; top:15px">
+                  
                 </div>
               </div>
               <div class="serv-section-disc">
@@ -213,8 +209,8 @@
           <div class="col-md-4 col-sm-12 col-12 col-display">
             <div class="serv-section-3">
               <div class="serv-section-3-icon">
-                <div class="glyph-icon flaticon-support">
-                  <img src="images/icons/foreign.svg" style="width: 75%;"/>
+                <div class="glyph-icon flaticon-translation">
+                  
                 </div>
               </div>
               <div class="serv-section-disc">
@@ -234,8 +230,7 @@
           <div class="col-md-4 col-sm-12 col-12 col-display">
             <div class="serv-section-3">
               <div class="serv-section-3-icon">
-                <div class="glyph-icon flaticon-support">
-                  <img src="images/icons/content.svg" style="width: 75%;"/>
+                <div class="glyph-icon flaticon-text">
 
                 </div>
               </div>
@@ -256,9 +251,7 @@
           <div class="col-md-4 col-sm-12 col-12 col-display">
             <div class="serv-section-3">
               <div class="serv-section-3-icon">
-                <div class="glyph-icon flaticon-support">
-                  <img src="images/icons/video.svg" style="width: 75%;" />
-
+                <div class="glyph-icon flaticon-video-editing" style="left:25px; top:16px">
                 </div>
               </div>
               <div class="serv-section-disc">
@@ -278,8 +271,7 @@
           <div class="col-md-4 col-sm-12 col-12 col-display">
             <div class="serv-section-3">
               <div class="serv-section-3-icon">
-                <div class="glyph-icon">
-                  <img src="images/icons/call.svg" style="width: 75%;" class="logo-img" />
+                <div class="glyph-icon flaticon-support">              
                 </div>
               </div>
               <div class="serv-section-disc">
@@ -292,15 +284,14 @@
               </div>
               <div class="section-heading-line-left"></div>
               <div class="arrow">
-                <img src="images/arrow2.png" width="55px" height="55px">
+                <img src=" images/arrow2.png" width="55px" height="55px">
               </div>
             </div>
           </div>
           <div class="col-md-4 col-sm-12 col-12 col-display">
             <div class="serv-section-3">
               <div class="serv-section-3-icon">
-                <div class="glyph-icon flaticon-support">
-                  <img src="images/icons/market.svg" style="width: 75%;" />
+                <div class="glyph-icon flaticon-market-research">
                 </div>
               </div>
               <div class="serv-section-disc">
@@ -320,8 +311,8 @@
           <div class="col-md-4 col-sm-12 col-12 col-display">
             <div class="serv-section-3">
               <div class="serv-section-3-icon">
-                <div class="glyph-icon flaticon-support">
-                  <img src="images/icons/audio.svg" style="width: 75%;"/>
+                <div class="glyph-icon flaticon-music" style="left:33px; top:15px">
+                  
                 </div>
               </div>
               <div class="serv-section-disc">
@@ -353,8 +344,7 @@
                   <div class="row my-5">
                       <div class="total-content col-md-6 col-sm-6">
                           <div class="d-flex justify-content-center align-items-center">
-                              <div class="icon">
-                                  <img src="images/1.png">
+                              <div class="glyphic flaticon-languages">
                               </div>
                               <div class="amount text-center">
                                   <div class="count">15+</div>
@@ -364,9 +354,8 @@
                       </div>
                       <div class="total-content col-md-6 col-sm-6">
                           <div class="d-flex justify-content-center align-items-center">
-                              <div class="icon">
-                                  <img src="images/2.png">
-                              </div>
+                            <div class="glyphic flaticon-text">
+                            </div>
                               <div class="amount text-center">
                                   <div class="count">15+</div>
                                   <div class="amount-text">Total Amount</div>
@@ -377,9 +366,8 @@
                   <div class="row my-5">
                       <div class="total-content col-md-6 col-sm-6">
                           <div class="d-flex justify-content-center align-items-center">
-                              <div class="icon">
-                                  <img src="images/3.png">
-                              </div>
+                            <div class="glyphic flaticon-interpreter">
+                            </div>
                               <div class="amount text-center">
                                   <div class="count">15+</div>
                                   <div class="amount-text">Total Amount</div>
@@ -388,9 +376,8 @@
                       </div>
                       <div class="total-content col-md-6 col-sm-6">
                           <div class="d-flex justify-content-center align-items-center">
-                              <div class="icon">
-                                  <img src="images/4.png">
-                              </div>
+                            <div class="glyphic flaticon-radio">
+                            </div>
                               <div class="amount text-center">
                                   <div class="count">15+</div>
                                   <div class="amount-text">Total Amount</div>

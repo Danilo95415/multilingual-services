@@ -151,9 +151,9 @@ a {
     margin-bottom: 0;
 }
 .foreign {
-    font-family: Roboto, sans-serif;
+    font-family: Acme, sans-serif;
     font-size: 21px;
-    font-weight: 400!important;
+    font-weight: 400;
     line-height: 29px;
     letter-spacing: 1px;
     text-align: left;
@@ -230,11 +230,13 @@ a {
 }
 
 .section_language .title{
-    font-size: 40px;
-    font-weight: 600;
-    font-family: Roboto, sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    font-family: Acme, sans-serif;
     text-align: center;
     line-height: 1.1;
+    display: flex;
+    justify-content: flex-start;
 }
 
 /* INDUSTRY */
@@ -620,7 +622,7 @@ span.input-group-text {
     border-radius: 5px;
     overflow: hidden;
     padding: 15px;
-    min-height: 140px;
+    min-height: 190px;
     margin: 0 0 30px 0;
 }
 
@@ -641,22 +643,35 @@ span.input-group-text {
 .serv-section-3:hover .serv-section-3-icon{
     background:#337ab7;
 }
-.logo-img path{
-    color: #32B2C1;
-}
-/* .serv-section-3:hover .logo-img path {
-    fill: #fff;
-} */
 
+.flaticon-gears:before, .flaticon-magnifying-glass:before {
+    font-size: 15px !important;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.flaticon-customer-service::before, .flaticon-medal::before, .flaticon-world::before, .flaticon-typing-1::before{
+    font-size: 35px!important;
+    color: #FF6600!important;
+}
 .serv-section-3 .glyph-icon {
     margin-top: 0;
+}
+.glyphic:before {
+    font-size: 60px!important;
+}
+.glyphic {
+    margin:5px 15px 0 0;
 }
 .glyph-icon {
     position: absolute;
     max-width: 100px;
     z-index: 1;
-    top: 18px;
-    left: 20px;
+    top: 10px;
+    text-align: center;
+    left: 26px;
+}
+.serv-section-3:hover .glyph-icon:before {
+    color: #fff;
 }
 .serv-section-desc {
     position: relative;
@@ -702,14 +717,13 @@ span.input-group-text {
     height: 3px;
     background: #001c48;
     border-radius: 35%;
-    margin-top: auto;
+    margin-top: 45px;
     margin-bottom: 5px;
     margin-left: 110px;
 }
 .serv-section-3 .glyph-icon:before {
     color: #337ab7;
     font-size: 50px;
-    font-family: Roboto, sans-serif;
 }
 
 .serv-section-3 .arrow {
@@ -767,11 +781,15 @@ span.input-group-text {
 }
 @media(max-width: 1395px) {
     .serv-section-3 {
-        height: 220px;
+        height: 230px;
         width: 360px;
     }
     .serv-section-disc {
-        height: 86%;
+        height: 66%;
+    }
+    .serv-section-3 h5 p{
+        padding-right: 15px;
+
     }
     .arrow {
         bottom: 10px!important;
@@ -823,7 +841,7 @@ span.input-group-text {
     }
 }
 @media (max-width:768px ) {
-    .ul_list {
+    .top_ul {
         display: none!important;
     }  
     .header_control {
