@@ -83,10 +83,6 @@
                               <div class="input_item pb-0">
                                 <textarea type="text" name="name" id="name"  placeholder="Write requirements" rows="5"/>
                               </div>
-                              <div class="upload_button d-flex" >
-                                <button><img src="images/upload.png" style="width:15%; height:75%" />Upload Files</button>
-                                <p class="sec_content" style="margin-left: 10px;">Max 4 files<br/> (10MB each)</p>
-                              </div>
                               <div class="send_button">
                                 <button class="flaticon-send">&nbsp;SEND</button>
                               </div>
